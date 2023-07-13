@@ -1,19 +1,18 @@
 {
     "id": 11992,
     "name": "Artio",
-    "last_updated": "2023-06-09",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2023-01-25",
     "combat_level": 320,
     "size": 3,
     "hitpoints": 450,
-    "max_hit": 35,
-    "attack_type": [
-        "crush",
-        "ranged",
-        "magic"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 5,
     "aggressive": true,
     "poisonous": false,

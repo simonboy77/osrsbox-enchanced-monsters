@@ -1,18 +1,18 @@
 {
     "id": 11243,
     "name": "Jelly",
-    "last_updated": "2023-06-09",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2005-01-26",
     "combat_level": 78,
     "size": 1,
     "hitpoints": 75,
-    "max_hit": 5,
-    "attack_type": [
-        "melee",
-        "magic"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 4,
     "aggressive": false,
     "poisonous": false,

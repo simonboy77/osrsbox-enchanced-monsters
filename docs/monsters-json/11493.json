@@ -1,17 +1,18 @@
 {
     "id": 11493,
     "name": "Menaphite Akh",
-    "last_updated": "2022-06-28",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2022-04-27",
     "combat_level": 351,
     "size": 1,
     "hitpoints": 480,
-    "max_hit": 80,
-    "attack_type": [
-        "slash"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 4,
     "aggressive": true,
     "poisonous": false,

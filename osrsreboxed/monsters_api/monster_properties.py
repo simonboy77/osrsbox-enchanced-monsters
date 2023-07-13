@@ -46,8 +46,7 @@ class MonsterProperties:
     combat_level: int = None
     size: int = None
     hitpoints: int = None
-    max_hit: int = None
-    attack_type: str = None
+    max_hit: str = None
     attack_speed: int = None
     aggressive: bool = None
     poisonous: bool = None

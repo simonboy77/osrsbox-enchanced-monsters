@@ -433,3 +433,227 @@ def stats(value: str) -> int:
         return int(value)
     except ValueError:
         return 0
+
+
+def tokenize_max_hit(maxHitList: list) -> list:
+    maxHitTokensList = []
+
+    for maxHitText in maxHitList:
+        maxHitTokens = []
+        textLength = len(maxHitText)
+        
+        tokenStart = 0
+        tokenEnd = 0
+
+        while tokenEnd < textLength:
+            char = maxHitText[tokenEnd]
+            
+            if char == " ":
+                tokenEnd += 1
+                tokenStart = tokenEnd
+                continue
+            
+            if char == "(" and ")" in maxHitText:
+                tokenEnd = maxHitText[tokenStart:].find(")") + tokenStart + 1
+            elif tokenEnd < (textLength - 4) and maxHitText[tokenEnd:tokenEnd + 2] == "{{" and "}}" in maxHitText[tokenEnd:]:
+                tokenEnd = maxHitText[tokenStart:].find("}}") + tokenStart + 2
+            else:
+                isNumber = char.isdigit()
+                while tokenEnd < (textLength - 1) and isNumber == char.isdigit() and char != " ":
+                    tokenEnd += 1
+                    char = maxHitText[tokenEnd]
+                else:
+                    if tokenEnd == (textLength - 1) and isNumber == char.isdigit():
+                        tokenEnd += 1
+            
+            clean = maxHitText[tokenStart:tokenEnd].replace("(", "").replace(")", "")
+            maxHitTokens.append(clean)
+            tokenStart = tokenEnd
+
+        maxHitTokensList.append(maxHitTokens)
+
+    return maxHitTokensList
+
+
+def max_hit_match_to_style(maxHitList: list, attackStyle: str) -> int:
+    maxHit = 0
+
+    for maxHitText in maxHitList:
+            maxHitText = maxHitText.replace("+", "")
+
+            if attackStyle in maxHitText:
+                maxHit = int(maxHitText[:maxHitText.index(" ")])
+                break
+
+    return maxHit
+
+
+def wiki_attack_style_to_local(attackStyle: str) -> str:
+    if attackStyle == "stab":
+        return "melee_stab"
+    elif attackStyle == "slash" or attackStyle == "slash melee":
+        return "melee_slash"
+    elif attackStyle == "crush":
+        return "melee_crush"
+    elif attackStyle == "magical melee" or attackStyle == "magic melee":
+        return "melee_magic"
+    elif attackStyle == "melee" or attackStyle == "melee (crush?)" or attackStyle == "crush(?)":
+        # Chaos elemental and thrower troll
+        return "melee_unknown"
+    elif attackStyle == "magic":
+        return "magic"
+    elif attackStyle == "magical ranged":
+        return "magic_ranged"
+    elif attackStyle == "ranged" or attackStyle == "single and multi-target ranged":
+        return "ranged"
+    elif attackStyle == "ranged melee":
+        return "ranged_melee"
+    elif attackStyle == "ranged magic":
+        return "ranged_magic"
+    elif attackStyle == "area of effect" or attackStyle == "magic (special)" or attackStyle == "various" or attackStyle == "poison":
+        return "area_of_effect"
+    elif attackStyle == "dragonfire":
+        return "dragonfire"
+    elif attackStyle == "icy breath":
+        return "icy_breath"
+    elif attackStyle == "volcanic flame":
+        return "volcanic_flame"
+    elif attackStyle == "none" or attackStyle == "":
+        return "none"
+    elif attackStyle == "curse" or attackStyle == "confuse": # ignored styles
+        return ""
+
+    print("unrecognized attack style: " + attackStyle)
+    return ""
+
+
+def max_hit_by_attack_style(maxHitString: str, attackStyleString: str) -> dict:
+    """Convert the max_hit entries and attack_style entries to a list.
+
+    :param value: Template value extracted from raw wikitext.
+    :return value: A list of attack styles with their max hit.
+    """
+
+    if maxHitString is None or maxHitString == "" or attackStyleString is None or attackStyleString == "":
+        return { "none": 0 }
+
+    outDict = {}
+
+    # TODO: Expand tokenizer to also split the string and deal with references
+    maxHitList = [hit.strip() for hit in maxHitString.lower().replace("[", "").replace("]", "").split(",")]
+    attackStyleList = [style.strip() for style in attackStyleString.lower().replace("[", "").replace("]", "").split(",")]
+
+    #print(maxHitList)
+    #print(attackStyleList)
+
+    '''
+
+    melee_stab
+    melee_slash
+    melee_crush
+    melee_magic
+    melee_unknown
+
+    magic
+    magic_ranged
+
+    ranged
+    ranged_melee
+    ranged_magic (uses ranged level against player magic defense. pray ranged protect)
+    
+    icy_breath
+    dragonfire
+    volcanic_flame
+    area_of_effect
+
+    '''
+
+    # if attackStyleList.size == 1 then max hit wont have (style) behind it
+    #if len(attackStyleList) == 1:
+
+    maxHitTokensList = tokenize_max_hit(maxHitList)
+    #print(maxHitTokensList)
+    
+    for maxHitTokens in maxHitTokensList:
+        finalToken = maxHitTokens[len(maxHitTokens) - 1]
+        legit = False
+
+        # no style
+        if finalToken.isdigit():
+            legit = True
+
+        # ignore
+        if maxHitTokens[0] == "0" or finalToken == "pickpocket failure" or finalToken == "on wise old man" or finalToken == "with anti-dragon shield":
+            legit = True
+
+        # standard (remove slash, stab and crush later to see which monsters have to be changed or remove melee)
+        if finalToken == "melee" or finalToken == "stab" or finalToken == "slash" or finalToken == "crush" or finalToken == "magic" or finalToken == "ranged" or finalToken == "normal" or finalToken == "regular hit" or finalToken == "standard" or finalToken == "default":
+            legit = True
+        
+        # two in one line
+        if finalToken == "melee; magic" or finalToken == "ranged/magic" or finalToken == "magic/ranged" or finalToken == "ranged and magic":
+            legit = True
+
+        # protection item needed
+        if finalToken == "dragonfire" or "without" in finalToken or finalToken == "icy breath":
+            legit = True
+
+        # area of effect/special attack
+        if finalToken == "stomp" or finalToken == "special attack" or finalToken == "with explosion" or finalToken == "special" or finalToken == "special direct hit" or finalToken == "special indirect hit" or finalToken == "range special" or finalToken == "dragonfire bomb/special" or finalToken == "dragonfire; tsunami" or finalToken == "dragonfire; fire traps; tsunami" or finalToken == "flies" or finalToken == "dash" or finalToken == "bounce" or finalToken == "bounce after standing underneath":
+            legit = True
+
+        if len(maxHitTokens) > 1 and maxHitTokens[1] == "+": # approximate hit
+            legit = True
+
+        # unknown
+        if finalToken == "varies": # all the fucking cox
+            legit = True
+
+        # special cases
+        if finalToken == "hitpoints": # Dharok (at 1 hitpoints)
+            legit = True
+        if finalToken == "protect from melee": # Verac
+            legit = True
+        if finalToken == "approx": # death wing
+            legit = True
+        if finalToken == "ranged approx.": # Tok-Xil
+            legit = True
+        if finalToken == "melee?": # Thrower troll
+            legit = True
+        if "may be higher than 47" in finalToken: # cox shaman
+            legit = True
+        if finalToken == "empowered": # alchy hydry
+            legit = True
+
+        if len(maxHitTokens) > 2:
+            if maxHitTokens[1] == "x": # double hit
+                legit = True
+            elif maxHitTokens[1] == "/": # multiple damage possibilities
+                legit = True
+            elif "{{" in finalToken and "}}" in finalToken: # Reference
+                legit = True
+
+        if not legit:
+            print("unrecognized max hit style: " + str(maxHitTokens))
+        
+
+    for styleText in attackStyleList:
+        typeless = ("typeless" in styleText)
+        styleText = styleText.replace("typeless", "").strip()
+
+        '''maxHit = 0
+        styleText = wiki_attack_style_to_local(styleText)
+
+        if styleText == "stab":
+            outDict["melee_stab"] = max_hit_match_to_style(maxHitList, "(melee)")
+        elif styleText == "melee":
+            outDict["melee_unknown"] = max_hit_match_to_style(maxHitList, "(melee)")
+        elif styleText == "magic":
+            outDict["magic"] = max_hit_match_to_style(maxHitList, "(magic)")
+        elif styleText == "ranged":
+            outDict["ranged"] = max_hit_match_to_style(maxHitList, "(ranged)")
+        elif styleText == "ranged_magic":
+            outDict["ranged_magic"] = max_hit_match_to_style(maxHitList, "(magic)")'''
+
+    #return outDict
+    return { "ranged": 10, "magic": 20, "melee": 30 }

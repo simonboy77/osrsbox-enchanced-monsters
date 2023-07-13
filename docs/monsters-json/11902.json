@@ -1,17 +1,18 @@
 {
     "id": 11902,
     "name": "Knight of Ardougne",
-    "last_updated": "2022-12-31",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2002-04-30",
     "combat_level": 46,
     "size": 1,
     "hitpoints": 52,
-    "max_hit": 6,
-    "attack_type": [
-        "slash"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 5,
     "aggressive": false,
     "poisonous": false,
@@ -24,7 +25,7 @@
     "slayer_level": null,
     "slayer_xp": null,
     "slayer_masters": [],
-    "duplicate": true,
+    "duplicate": false,
     "examine": "A member of Ardougne's militia.",
     "wiki_name": "Knight of Ardougne (Male)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Knight_of_Ardougne#Male",

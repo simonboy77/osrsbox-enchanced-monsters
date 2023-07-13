@@ -1,17 +1,18 @@
 {
     "id": 11955,
     "name": "Tribeswoman",
-    "last_updated": "2022-12-31",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2022-11-09",
     "combat_level": 32,
     "size": 1,
     "hitpoints": 39,
-    "max_hit": 4,
-    "attack_type": [
-        "stab"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 4,
     "aggressive": true,
     "poisonous": true,

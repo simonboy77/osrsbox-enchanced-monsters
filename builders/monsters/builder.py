@@ -64,12 +64,41 @@ class Builder:
         # Initialize a list of known monsters
         self.known_monsters = list()
 
+    def run_test(self):
+        testId = 7706 # 414=banshee 6492=kree 983=daga mother
+        builder = build_monster.BuildMonster(monster_id=testId,
+                                             all_monster_cache_data=self.all_monster_cache_data,
+                                             all_db_monsters=self.all_db_monsters,
+                                             all_wikitext_raw=self.all_wikitext_raw,
+                                             all_wikitext_processed=self.all_wikitext_processed,
+                                             monsters_drops=self.monsters_drops,
+                                             schema_data=self.schema_data,
+                                             known_monsters=self.known_monsters,
+                                             verbose=self.verbose)
+
+        status = builder.preprocessing()
+        if status:
+            builder.populate_monster()
+            known_monster = builder.check_duplicate_monster()
+            self.known_monsters.append(known_monster)
+            builder.populate_monster_drops()
+            if self.compare:
+                builder.compare_new_vs_old_monster()
+            if self.export:
+                builder.export_monster_to_json()
+            if self.validate:
+                builder.validate_monster()
+    
+        # Done processing, rejoice!
+        print("Test single run")
+        exit(0)
+
     def run(self):
         # Start processing every monster!
         for monster_id in self.all_monster_cache_data:
 
-            # if int(monster_id) < 11000:
-            #     continue
+            if int(monster_id) < 10833:
+                continue
 
             # Initialize the BuildMonster class, used for all monsters
             builder = build_monster.BuildMonster(monster_id=monster_id,
@@ -122,7 +151,7 @@ class Builder:
                 builder.populate_monster()
                 known_monster = builder.check_duplicate_monster()
                 self.known_monsters.append(known_monster)
-                builder.populate_monster_drops()
+                #builder.populate_monster_drops()
                 builder.validate_monster()
 
         # Done testing, rejoice!

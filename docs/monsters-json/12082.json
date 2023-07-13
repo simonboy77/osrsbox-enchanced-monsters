@@ -1,17 +1,18 @@
 {
     "id": 12082,
     "name": "Phantom Muspah",
-    "last_updated": "2023-04-25",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2023-01-11",
     "combat_level": 741,
     "size": 5,
     "hitpoints": 850,
-    "max_hit": 20,
-    "attack_type": [
-        "typeless"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 5,
     "aggressive": true,
     "poisonous": false,

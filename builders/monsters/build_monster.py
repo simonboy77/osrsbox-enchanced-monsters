@@ -203,8 +203,6 @@ class BuildMonster:
         monster_properties = {"members": "members",
                               "release_date": "release",
                               "hitpoints": "hitpoints",
-                              "max_hit": "max hit",
-                              "attack_type": "attack style",
                               "attack_speed": "attack speed",
                               "aggressive": "aggressive",
                               "poisonous": "poisonous",
@@ -217,13 +215,41 @@ class BuildMonster:
                               "slayer_xp": "slayxp",
                               "examine": "examine"}
 
-        # Loop each of the combat bonuses and populate
+        
+        # Manually populate the max hit
+        maxHitText = None
+        attackStyleText = None
+
+        proj_max_hit = "max_hit"
+        prop_max_hit = "max hit"
+        prop_attack_style = "attack style"
+        
+        if self.infobox_version_number is not None:
+            maxHitKey = prop_max_hit + str(self.infobox_version_number)
+            attackStyleKey = prop_attack_style + str(self.infobox_version_number)
+
+            maxHitText = self.extract_infobox_value(self.template, maxHitKey)
+            attackStyleText = self.extract_infobox_value(self.template, attackStyleKey)
+            
+        if maxHitText is None:
+            maxHitText = self.extract_infobox_value(self.template, prop_max_hit)
+
+        if attackStyleText is None:
+            attackStyleText = self.extract_infobox_value(self.template, prop_attack_style)
+
+        self.monster_dict[proj_max_hit] = infobox_cleaner.max_hit_by_attack_style(maxHitText, attackStyleText)
+
+        if maxHitText is None or attackStyleText is None:
+            self.monster_dict["incomplete"] = True
+        
+        
+        # Loop each of the monster properties and populate
         for proj_name, prop_name in monster_properties.items():
             value = None
             if self.infobox_version_number is not None:
                 key = prop_name + str(self.infobox_version_number)
                 value = self.extract_infobox_value(self.template, key)
-
+                
             if value is None:
                 value = self.extract_infobox_value(self.template, prop_name)
 
@@ -379,8 +405,8 @@ class BuildMonster:
         try:
             existing_json = self.all_db_monsters[self.monster_id]
         except KeyError:
-            print(f">>> compare_json_files: NEW MONSTER: {self.monster_properties.id}")
-            print(current_json)
+            #print(f">>> compare_json_files: NEW MONSTER: {self.monster_properties.id}")
+            #print(current_json)
             self.monster_dict["last_updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             return
 

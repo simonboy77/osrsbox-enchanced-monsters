@@ -1,17 +1,18 @@
 {
     "id": 11293,
     "name": "Blood Reaver",
-    "last_updated": "2022-06-28",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2022-01-05",
     "combat_level": 174,
     "size": 2,
     "hitpoints": 125,
-    "max_hit": 20,
-    "attack_type": [
-        "magic"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 5,
     "aggressive": true,
     "poisonous": false,

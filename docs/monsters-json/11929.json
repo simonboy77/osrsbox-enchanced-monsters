@@ -1,17 +1,18 @@
 {
     "id": 11929,
     "name": "Warrior",
-    "last_updated": "2022-12-31",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": false,
     "release_date": "2022-11-09",
     "combat_level": 24,
     "size": 1,
     "hitpoints": 20,
-    "max_hit": 3,
-    "attack_type": [
-        "stab"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 4,
     "aggressive": false,
     "poisonous": false,

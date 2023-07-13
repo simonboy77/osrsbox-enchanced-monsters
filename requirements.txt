@@ -7,3 +7,4 @@ mwparserfromhell==0.6.3
 pytest==6.2.5
 requests==2.26.0
 regex==2022.3.2
+osrsreboxed

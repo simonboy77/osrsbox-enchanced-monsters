@@ -1,17 +1,18 @@
 {
     "id": 12025,
     "name": "General Khazard",
-    "last_updated": "2023-01-19",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2002-07-23",
     "combat_level": 142,
     "size": 2,
     "hitpoints": 170,
-    "max_hit": 9,
-    "attack_type": [
-        "slash"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 4,
     "aggressive": false,
     "poisonous": false,

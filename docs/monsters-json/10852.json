@@ -1,17 +1,18 @@
 {
     "id": 10852,
     "name": "Verzik Vitur",
-    "last_updated": "2023-06-09",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2021-06-03",
     "combat_level": 1520,
     "size": 7,
     "hitpoints": 1200,
-    "max_hit": 60,
-    "attack_type": [
-        "magic"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 12,
     "aggressive": false,
     "poisonous": false,
@@ -24,10 +25,10 @@
     "slayer_level": null,
     "slayer_xp": null,
     "slayer_masters": [],
-    "duplicate": true,
+    "duplicate": false,
     "examine": "There's something very disconcerting about her.",
-    "wiki_name": "Verzik Vitur",
-    "wiki_url": "https://oldschool.runescape.wiki/w/Verzik_Vitur",
+    "wiki_name": "Verzik Vitur (Phase 1)",
+    "wiki_url": "https://oldschool.runescape.wiki/w/Verzik_Vitur#Phase_1",
     "attack_level": 180,
     "strength_level": 150,
     "defence_level": 10,

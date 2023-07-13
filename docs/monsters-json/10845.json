@@ -1,15 +1,18 @@
 {
     "id": 10845,
     "name": "Nylocas Matomenos",
-    "last_updated": "2023-06-09",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2021-06-03",
     "combat_level": 68,
     "size": 2,
     "hitpoints": null,
-    "max_hit": 11,
-    "attack_type": [],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": null,
     "aggressive": false,
     "poisonous": false,

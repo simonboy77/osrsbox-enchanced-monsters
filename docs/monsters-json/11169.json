@@ -1,17 +1,18 @@
 {
     "id": 11169,
     "name": "Vyrewatch",
-    "last_updated": "2022-12-31",
+    "last_updated": "2023-07-13",
     "incomplete": true,
     "members": true,
     "release_date": "2018-05-24",
     "combat_level": 105,
     "size": 1,
     "hitpoints": 75,
-    "max_hit": 8,
-    "attack_type": [
-        "crush"
-    ],
+    "max_hit": {
+        "ranged": 10,
+        "magic": 20,
+        "melee": 30
+    },
     "attack_speed": 8,
     "aggressive": true,
     "poisonous": false,
@@ -35,7 +36,7 @@
         "nieve",
         "duradel"
     ],
-    "duplicate": true,
+    "duplicate": false,
     "examine": "An evil, bloodsucking vampyre.",
     "wiki_name": "Vyrewatch (Level 87)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Vyrewatch#Level_87",
