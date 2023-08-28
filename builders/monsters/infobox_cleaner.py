@@ -437,6 +437,10 @@ def stats(value: str) -> int:
 
 def tokenize_max_hit(maxHitList: list) -> list:
     maxHitTokensList = []
+    
+    midReference = False
+    referenceDepth = 0 # in case of references in references
+    referenceText  = ""
 
     for maxHitText in maxHitList:
         maxHitTokens = []
@@ -453,13 +457,23 @@ def tokenize_max_hit(maxHitList: list) -> list:
                 tokenStart = tokenEnd
                 continue
             
-            if char == "(" and ")" in maxHitText:
+            referenceStart = tokenEnd < (textLength - 2) and maxHitText[tokenEnd:tokenEnd + 2] == "{{"
+            if referenceStart or midReference:
+                if not midReference:
+                    tokenStart = tokenEnd
+                
+                if "}}" in maxHitText[tokenEnd:]:
+                    referenceDepth -= maxHitText[tokenStart:].count("}}")
+                    tokenEnd = maxHitText[tokenStart:].rfind("}}") + tokenStart + 2
+                else: # References could be split because they can contain comma's
+                    referenceDepth += maxHitText[tokenStart:].count("{{")
+                    tokenEnd = textLength
+                    midReference = True
+            elif char == "(" and ")" in maxHitText:
                 tokenEnd = maxHitText[tokenStart:].find(")") + tokenStart + 1
-            elif tokenEnd < (textLength - 4) and maxHitText[tokenEnd:tokenEnd + 2] == "{{" and "}}" in maxHitText[tokenEnd:]:
-                tokenEnd = maxHitText[tokenStart:].find("}}") + tokenStart + 2
             else:
                 isNumber = char.isdigit()
-                while tokenEnd < (textLength - 1) and isNumber == char.isdigit() and char != " ":
+                while tokenEnd < (textLength - 1) and isNumber == char.isdigit() and char != " " and char != "{":
                     tokenEnd += 1
                     char = maxHitText[tokenEnd]
                 else:
@@ -467,10 +481,20 @@ def tokenize_max_hit(maxHitList: list) -> list:
                         tokenEnd += 1
             
             clean = maxHitText[tokenStart:tokenEnd].replace("(", "").replace(")", "")
-            maxHitTokens.append(clean)
             tokenStart = tokenEnd
 
-        maxHitTokensList.append(maxHitTokens)
+            if midReference:
+                referenceText += clean
+
+                if referenceDepth == 0:
+                    maxHitTokens.append(referenceText)
+                    referenceText = ""
+                    midReference = False
+            else:
+                maxHitTokens.append(clean)
+
+        if maxHitTokens: # We don't want to add empty strings
+            maxHitTokensList.append(maxHitTokens)
 
     return maxHitTokensList
 
@@ -564,7 +588,7 @@ def max_hit_by_attack_style(maxHitString: str, attackStyleString: str) -> dict:
     icy_breath
     dragonfire
     volcanic_flame
-    area_of_effect
+    area_of_effect/avoidable
 
     '''
 
@@ -572,7 +596,6 @@ def max_hit_by_attack_style(maxHitString: str, attackStyleString: str) -> dict:
     #if len(attackStyleList) == 1:
 
     maxHitTokensList = tokenize_max_hit(maxHitList)
-    #print(maxHitTokensList)
     
     for maxHitTokens in maxHitTokensList:
         finalToken = maxHitTokens[len(maxHitTokens) - 1]
@@ -595,22 +618,27 @@ def max_hit_by_attack_style(maxHitString: str, attackStyleString: str) -> dict:
             legit = True
 
         # protection item needed
-        if finalToken == "dragonfire" or "without" in finalToken or finalToken == "icy breath":
+        if finalToken == "dragonfire" or "without" in finalToken or "icy breath" in maxHitTokens: # long-tailed wyvern's wording is flipped
             legit = True
 
         # area of effect/special attack
-        if finalToken == "stomp" or finalToken == "special attack" or finalToken == "with explosion" or finalToken == "special" or finalToken == "special direct hit" or finalToken == "special indirect hit" or finalToken == "range special" or finalToken == "dragonfire bomb/special" or finalToken == "dragonfire; tsunami" or finalToken == "dragonfire; fire traps; tsunami" or finalToken == "flies" or finalToken == "dash" or finalToken == "bounce" or finalToken == "bounce after standing underneath":
+        if finalToken == "stomp" or finalToken == "special attack" or finalToken == "with explosion" or finalToken == "special" or finalToken == "special direct hit" or finalToken == "special indirect hit" or finalToken == "range special" or finalToken == "dragonfire bomb/special" or finalToken == "dragonfire; tsunami" or finalToken == "dragonfire; fire traps; tsunami" or finalToken == "flies" or finalToken == "dash" or finalToken == "bounce" or finalToken == "bounce after standing underneath" or finalToken == "smoke dash" or finalToken == "shadow smash" or finalToken == "blood sacrifice" or finalToken == "containment" or finalToken == "ice prison" or finalToken == "shockwave" or finalToken == "shockwave" or finalToken == "lightning cloud":
             legit = True
 
-        if len(maxHitTokens) > 1 and maxHitTokens[1] == "+": # approximate hit
-            legit = True
+        if len(maxHitTokens) > 1:
+            if maxHitTokens[1] == "+": # approximate hit
+                legit = True
+            if maxHitTokens[1] == "%": # the stranger (hits % of players maxhit, 115% as of time of writing)
+                legit = True
 
         # unknown
         if finalToken == "varies": # all the fucking cox
             legit = True
+        if "increased" in maxHitTokens: # The Nightmare
+            legit = True
 
         # special cases
-        if finalToken == "hitpoints": # Dharok (at 1 hitpoints)
+        if finalToken == "at 1 hitpoints": # Dharok (at 1 hitpoints)
             legit = True
         if finalToken == "protect from melee": # Verac
             legit = True
@@ -630,8 +658,9 @@ def max_hit_by_attack_style(maxHitString: str, attackStyleString: str) -> dict:
                 legit = True
             elif maxHitTokens[1] == "/": # multiple damage possibilities
                 legit = True
-            elif "{{" in finalToken and "}}" in finalToken: # Reference
-                legit = True
+
+        if finalToken.startswith("{{") and finalToken.endswith("}}"): # Reference
+            legit = True
 
         if not legit:
             print("unrecognized max hit style: " + str(maxHitTokens))

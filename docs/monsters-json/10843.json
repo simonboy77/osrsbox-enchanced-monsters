@@ -1,7 +1,7 @@
 {
     "id": 10843,
     "name": "Nylocas Hagios",
-    "last_updated": "2023-07-13",
+    "last_updated": "2023-08-28",
     "incomplete": true,
     "members": true,
     "release_date": "2018-06-07",
@@ -25,7 +25,7 @@
     "slayer_level": null,
     "slayer_xp": null,
     "slayer_masters": [],
-    "duplicate": false,
+    "duplicate": true,
     "examine": "One of Verzik's pets.",
     "wiki_name": "Nylocas Hagios (Level 162)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Nylocas_Hagios#Level_162",

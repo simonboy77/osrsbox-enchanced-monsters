@@ -1,7 +1,7 @@
 {
     "id": 10862,
     "name": "Nylocas Matomenos",
-    "last_updated": "2023-07-13",
+    "last_updated": "2023-08-28",
     "incomplete": true,
     "members": true,
     "release_date": "2021-06-03",
@@ -25,7 +25,7 @@
     "slayer_level": null,
     "slayer_xp": null,
     "slayer_masters": [],
-    "duplicate": false,
+    "duplicate": true,
     "examine": "Dripping with blood.",
     "wiki_name": "Nylocas Matomenos (Entry Mode Maiden)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Nylocas_Matomenos#Entry_Mode_Maiden",
