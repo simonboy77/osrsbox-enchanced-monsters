@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ###############################################################################
 '
 odb=$(cd ../..; pwd)
-rl=$(cd ../../..; cd runelite; pwd)
+rl=$(cd ../../../..; cd runelite; pwd)
 
 echo -e ">>> flatcache..."
 echo -e "  > Building osrs-flatcache..."
