@@ -1,7 +1,7 @@
 {
     "id": 5733,
     "name": "Rotten potato",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": false,
@@ -26,7 +26,7 @@
     "release_date": "2005-07-11",
     "duplicate": false,
     "examine": "Yuk!",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABGElEQVR4Xu2VvwrCMBDGkzfo5NwXEFzcXZwUlw4iokMHBemgiKKD4ODg4OAbRy7hzCWNGeRsEfLBR//Q3P36XUqFSEpKSkrillSuW5EFGA+Emo0yVQyFPm8YzDRbTDJVFsbrqT2nbiA1CwIQ1bxuuI+GZyGxfhdTY5WBgaaHsu7d0jXCwRoYJazv5TkXlNTFofFl03F8rczxvMq0KVwIyq/8haQujs2pb1tjvEYwmhpAwYgZU5LvxtT3vesYGDsQpoHNH0fr58kFCo2PHQiafAICh4Do2NiBoEEoJTquEBBubrOZDQwDEKieUgjGB/JBmGBQZi/FQNDwqf8QhMr9ieIoY6n4FdjlvrUL2FAqcVGAVkGSkpL+WS/HqaXeBiw7VAAAAABJRU5ErkJggg==",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABFklEQVR4Xu2VsQrCMBCGkzfI5OwLCC4Obi6dFBcHEdHBQUE6KKLoIDg4ODj4xpFLOHJN0zqYthTuh582Lc3/9S5phWCxWKzWS2rnRmUhkqEwnoxEk1BSzxKhV1Old3NljouxIlC1gdmwzUzpdJk3wME9cA2tlCb0uP5tBIPKDXqVtNLC3LZKnzfOMKaGayEoaGdEKGkC7vtOzo/UnVMoBIOXAChYbzBPv9v9F0qaySHY9/NgjeMisOhAGEz9OmXtg9H2RQfCamD4++L8uWaB/ApVAgQhRUDgEBBdR/gJAJgoQBAQqhJtVwgId1tEGFS+SiEYH8hu8+gwKLuWykDQPkgFMCj6Kyh2DSBONKzM/nMsFovVJn0BSaqkGwRx+4UAAAAASUVORK5CYII=",
     "wiki_name": "Rotten potato",
     "wiki_url": "https://oldschool.runescape.wiki/w/Rotten_potato",
     "equipment": null,

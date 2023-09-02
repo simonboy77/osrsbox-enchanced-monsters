@@ -1,7 +1,7 @@
 {
     "id": 26385,
     "name": "Torva platebody",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2022-01-05",
     "duplicate": true,
     "examine": "An ancient warrior's platebody.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADr0lEQVR4Xu2W3UuUURDGO3+HN4IXQRAsgYjIgiKyiLK4uKysomSiSVpkaVZaGJnRh2nkV/ZlWm3ZhxYFURdd9wdE9/0jE7+Reff4ruW+RtaFA8PqnnNmnvPMM3N2374927O/Zk7yvhPzz+80RmBOjrS1yeHWrByKxbYIGE5WuM65mnhcSktK5OCBA1vsKdqc9Pf0yNHOTg2aB5T3bDqtiXwP76koL9ez9bW1wXqstDQqKCfNyaTcuX5dRoeGpLujQwNXVVYqW6w1NTTI+dOn5ezAgJw5eUL38D17DFxddbU0JhJydeyiXBwe1n07AOQ06ef1dQ3GzQgM7dwUxkjOnvaWFt1j64DBAU95+JtP/medvbAasWxOPrxcVQbuH/uqgJ7dv6dAAHCqr09LGQbFPpLiAHw8Py+Dx/tVg/vLytRzA98DBiOAcpp8ffiHPD35TQHgfEciaD/R26v/m+BxAJHMQOEL01O6B9AwM5JektnuL4G4iyydk0wqFbjpBRa4pSWwtSsXRhWgdSJOiXCYsLPhshYJyKn4SIpza9MQzs38Ur17npNrl8aktWpQ0pX9ARDTjgEyUBYP0EWMABccbGlrl3Q2K8nmZmloagpuRqDLIyOyeHta5m5NqtY6ay5oNyZi7XKsq0uBWlfCqMVMZTJBvMqqKgXE+ragKMXH16/lzcqKBiFAorFRquvqJF5dE5QK/7S2JrmHD+TR3JykKnpVX1Y2ksGQfzFiTE1MyOzNG8Fco2zblM5tGnR0igEywLDAzZlROKKnjFYyY4fzXIrz6Cw8QIsAg7mAdnREd5iwWTP92PdoC4ZMOzaHYMAS+81hGipS1JhTLRggC0ZiAwsY60L0hZ6s5Q1MXh8bT4zFQU8R2MEKAdmM8YP7Tll94VuHGSBjGjemiwSDbQbEjUhmwQn45N6iloluQ6AIdezcOQVmb9pWgGCXtYiAsI0gJl4rF26ifNKWkdnmpL55dBudOZmsl4mGhIwl8i87ju6MWb9k4ay/MRcMwHDd+VzKpmUxk5L5dJOyQ3IG5HBNXLoryiUbO7hpvw9oByXDNh5YZhGPJGXhJwTf0+LMGz79N810ZvrxGXq/+kJeLS9rqR/MzGgTbKxFss0/tMwpI47O7KcIj6gB8oeiz1LYI3RZ3uxQ/rDTyWwd4z+wMOaDof3z2iuMFRnMr83J29wzWbm7oOUEDACY2MYe/kdMRDcnk+PjARhztEX7+0B2AYxZoS52mZVCC2viH7CyZ/+P/QSnZ/1y0l2/BAAAAABJRU5ErkJggg==",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAC/UlEQVR4Xu2W30pUURSH3c/hzYAXwUAwCCISgjEMEoYkSWKSZJINjUlmZpMmk9loiikkYsV0UYFd9RC9QlfRw+z41uE37jlzlPkT3jQLFjNz9t5rfXut395nuro61rH/x5yPPMk0FnqSnTfWlDl/f3ra92YyCYmdv5xO+1R3d43H5+D9fX3BWMvm/EI+768ODlrABzMz/uHsrM8NDdmzKwMD/sbISB3QpZ6e6venj+b9i6Ulm9smlLNAt8bG/M3RUQv87PGCgfAMkGvZrP2eHB+3OYACEzobYt3B9ratYS6xM6lUM1DOv15dtcQnud/+7auS/b4+PGwAJA+hAOE77QsdIDb1pFCoVvZo8GfQ/obNWYDvuT/+S/aXAe2Xy7ZTgqtqAArq3tRUDQjOd9bcmZgwHc7Pzflib8WX+3802zpnpS0Vi/754qLtkk+cRIyFUAAxJ2yVwKQjgJnHBlgLZIOtc5ZYSRWAxJR8d2PDgoVQ6KOQ3rWq8gwY2iJhM4c4rEfYCBzYhoEIiiNISg2AAgKyt7np796eNH+/s2N+9G7PWsI4MCRGbwBxOqkQcbSJECpOkGDOVw4PLQm7V4V0ovj97dNH//XDsT8+2Dd9vXm5Zm0jOWBoTS3Tpli3vrLi15aXba4q1ECVMFfVCKIOgQR18rliUIDn01uWCBHrzlHbAAKYk0oMvEkYzCWWmmckkMfnqLXhRahN4DqVDepHFh37pGRA8Az96DMc12WpChFLc3BV/Z8AEUhASqBbGhidRKoDDKctrDRgqlLLQABwqtAAGgmrQnCecU1sldZNzIxRHd1D0SlyVa2pSk0CYdHx1+7Vd5yTAiAXJ0D8Zg4OMOuoVPgPQdVRzLaAdBsreBg4yaWjs4BaaBkWJU4CImhYPcaT9HP6vnI1emtB1LL6P1rapXYqIHQUB6p9PdTGafIOOjUtVNDwYhQMtzJ6Qj8Cqq9SbayWYJItKr/+5/AmR9h6kcZb2VY1Grf6Vp7lFwATWbz853l8bcc6dlH2F647u5gDTLOOAAAAAElFTkSuQmCC",
     "wiki_name": "Torva platebody (Restored)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Torva_platebody#Restored",
     "equipment": null,

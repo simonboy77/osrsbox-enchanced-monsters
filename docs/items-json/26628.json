@@ -1,7 +1,7 @@
 {
     "id": 26628,
     "name": "Banana (cookout)",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": false,
@@ -20,7 +20,7 @@
     "cost": 1,
     "lowalch": null,
     "highalch": null,
-    "weight": 0.028,
+    "weight": 0.04,
     "buy_limit": null,
     "quest_item": false,
     "release_date": "2022-02-16",

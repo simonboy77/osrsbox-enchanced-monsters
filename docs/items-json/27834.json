@@ -1,7 +1,7 @@
 {
     "id": 27834,
     "name": "Statius's platebody (bh)",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": false,
@@ -30,9 +30,9 @@
     "wiki_name": "Statius's platebody (bh) (Activated)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Statius's_platebody_(bh)#Activated",
     "equipment": {
-        "attack_stab": 5,
-        "attack_slash": 5,
-        "attack_crush": 7,
+        "attack_stab": 2,
+        "attack_slash": 2,
+        "attack_crush": 14,
         "attack_magic": -38,
         "attack_ranged": -17,
         "defence_stab": 102,
@@ -43,7 +43,7 @@
         "melee_strength": 5,
         "ranged_strength": 0,
         "magic_damage": 0,
-        "prayer": 1,
+        "prayer": 3,
         "slot": "body",
         "requirements": null
     },

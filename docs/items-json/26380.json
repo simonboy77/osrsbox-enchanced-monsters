@@ -1,7 +1,7 @@
 {
     "id": 26380,
     "name": "Torva platelegs (damaged)",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2022-01-05",
     "duplicate": false,
     "examine": "An ancient warrior's platelegs.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAChklEQVR4Xt2X30sUURTHvX+HL/vWkyDBskgsrCyxyIq0tLSYKNmiSZpkZmaabGakSKA+aCm1ZNamJdRm0EM91GPUk3/Qie8Zztwf89jcWfELh5m57Mz97Pfcc+5MW9vZkyIdLZeinnyeLuZy1J3NtgLKdENRb6FAl4pFSrW38zngEoRS1F8uc1wplcIAjADBKfyuM5XyDaXo2tV+Kz7u7THI5b4+er29nTzQxOgo3axWOZrvGxwC9ObF84hL7hNilga6MTxMnxvv6NvREQ1WKgzUePUyAuTZJRvo09t9+nH8he7emuDrfKaX9nd3GCoxoMXZWVqYmaGvHw55YkDcuz1JxWyZzw/qdR6Ha3DKY9oUPXm4QLW5OfrebIYwuXQPB4AKXSUek4pDJXp0SdHT2iJDIU0yOWAudOYjMMeHB3z0CnTy9w9PUilULXdcIJyXugd5ke9srPtN2+9fPxkIEwtMpiNrAeGIFAYggUOeXIIUA8EBTG4CAVDAEAnAQDYQ4vy5LgtInBOHPKYMUlxpKHX0JClvtILJsTHuR9hSsL/ht9cHBsJz90n/IfNhKnQGVYdGmEmnGWJtaYkeTE/zbi+vIRiPOXWKXdBQARCqZ/VRjR0B2O7mJq2vrNDj+Xm6Mz4eQsQOMzI0xP9SmhwCm2h9a4ueLS/T/ampcEyccyFighEFUOY/xmsGehKOWDtmGl0YT3InUQxiQkTDs0wYVJPs+FjAWNQYRzWh4jRkIlK8aAVIv4jpEjdT597tQYp7kPQc/ZWh+BpQdiq9K0gZAovdfhELoNwF7j7BgwIoAOHz51QAyaT2xBpIxhICgnSJ64mjQO5dXiUgZkuIutZyua6dAsUB8w/8Cn7NBcz9LQAAAABJRU5ErkJggg==",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACR0lEQVR4Xt2WW0vDQBCF3T/hS18KfSgUCqFQQimBSpAiFbFYlCqKF7zgDRVv4AVFRBT0RfHN3zpyZplks1oEza7iwCFl2mY+zsxOMjT0/0KR1q+HBimXSqxfApOiioqFAjUbDb6a8gilaLTVSgqPRNEHmLBep2ql4gNK0XS3S1MTEzTZ6dD50RFfIRMIjgEKvw+KRZdQGggygQBhQnkCSmFMhwQGOt3fT9roHQi6PDlhEAEMSzEdbG0lLnkDgm4vzjPuAAayh9vRYCvq93oZ3V1dctFaMUqAmuWxDBDkyCVF8zMziQB0f33FEACqFkL+3KpMMoTMkgll3/GHoej16TERisThOMOYQHCoVdc63tulw51t2t3YoO21NTdQby8vDNNudLkoPgPGBmoGMV9xCjWIbpuT1n0GVB4OkqFGPqxGLBPEAQxCUSfqcbvggsyICYQ8YGplfexTOQntkEgWYC0IeBeNt9v8nDM39fLcHK+JnKHkZinQ4myfNldWuDiAUBQ5XAEFWPweuZxnSB95sR4w60tLSXE4gO8BJ27Ic03+kyvM6sICF8fuESApjtxYHHMeR1uABMbRQGso0yETCHODvDzDbBj7bjmFWUDxwnt+eKCbszMGEVgHLRocaQHdHswRnPvclVxP1FehhxztsufFbKtHKA0k70U44gIi+Syk88gCyYsYhBZi2M022v92EFmg7Kuq4hNoz5V9h5xDv6wJkGzkPwMki9EGkpwHIMSgvaNXgkd30hCIrAvpw9c70OCwXftevAPTt4GY6z7qugAAAABJRU5ErkJggg==",
     "wiki_name": "Torva platelegs (Damaged)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Torva_platelegs#Damaged",
     "equipment": {

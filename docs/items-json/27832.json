@@ -1,7 +1,7 @@
 {
     "id": 27832,
     "name": "Vesta's plateskirt (bh)",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": false,
@@ -30,9 +30,9 @@
     "wiki_name": "Vesta's plateskirt (bh) (Activated)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Vesta's_plateskirt_(bh)#Activated",
     "equipment": {
-        "attack_stab": 7,
-        "attack_slash": 7,
-        "attack_crush": 7,
+        "attack_stab": 10,
+        "attack_slash": 10,
+        "attack_crush": 3,
         "attack_magic": -30,
         "attack_ranged": -12,
         "defence_stab": 55,

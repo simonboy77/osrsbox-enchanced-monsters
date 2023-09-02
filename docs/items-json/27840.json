@@ -1,7 +1,7 @@
 {
     "id": 27840,
     "name": "Zuriel's robe top (bh)",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": false,
@@ -42,7 +42,7 @@
         "defence_ranged": 0,
         "melee_strength": 0,
         "ranged_strength": 0,
-        "magic_damage": 0,
+        "magic_damage": 3,
         "prayer": 0,
         "slot": "body",
         "requirements": null

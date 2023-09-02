@@ -1,7 +1,7 @@
 {
     "id": 26242,
     "name": "Virtus mask",
-    "last_updated": "2023-04-25",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": true,
@@ -23,7 +23,7 @@
     "weight": 1.206,
     "buy_limit": null,
     "quest_item": false,
-    "release_date": "2021-10-20",
+    "release_date": "2023-07-26",
     "duplicate": true,
     "examine": "An ancient mage's mask.",
     "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADCklEQVR4Xt2W7UuTYRTGvf8Ovwh+CIJgCCISfoh9EFFEcShLFKeoI6ZkZraymKSWlW2Y6dwYmom2pWD5Mm2KW9NENkzMNJuaItSfccU583naVvbJ5xl04HA/b+P+cV3nnHspKf9XCMSvSQ0Bt3sItNpsj3hN/ELFEFgJ+jA25mSQ572P0dPTkSwoge3tDQQCXrwasTPEi74nsFq7+FqTlqY2lEAoFMTsrAdDQ/0M4XDYWKWkAZE6TmdvDIBAf39PMoAEdr58gtc7IW8uAcWqlPgrBUMgHF5JgIk+d7n6kqGSSLAq/p3KKgkcHu7B55s63fDPJFjquL8Dn3sI7O/vcsvfaW5GW0sLrzcbTGg0GpGn1bJtdrtVPaBIZAdbWyHcbmpimPutrXx9raYGpcXFeDk88A9Lzz0E9vY+Y3NzHWtryzLQreuNMNXVobayEqOjDnk2qQJ0cnKEo+8RRL7txAGRZW+nxjDxZgTu10OorzeoUdjR82t93Y+fP05wcPBVtmxpcRoz79x8tnV2tMkKKaySQPDDAk/ptNRUzv3ILsKhFfjeT/E9zSGLxayeZd3tFraNwFZXF7mWSB3qLqodssw+oEqXCXTea8Oz+nHYjG6eR0tL0/D75/jEp2KenfHwasi9oS5QdXk5jo8PWKn5+Ul4PMMYH3cxzOXsbBgL7ioNJGAxm2Wgqqt6hinKz+chOe+dRFZmJttGQA1F7biQnq5kl0WBntaNMlBFWRlKCgu5y4KBBXjnJlilDI2GgVpKu3lqK6jSbyCyi4AKcnP5b0jA7+XaodkjARGsgnUkeABKQGQXAdExsRH+CP/yHM8fqiHHoI1BCYhsIxsVsC0K9LBmOA5Ir9PxxlRHBCEl3dNzs96KKzk5Sqh0NhCpRABSEgg9o3eUBKiYSg8MTs7OahcDxaokpQRDRU2tX641yQqds0oUAqVZRuizTbBU9KO9alBWSQJp1nWhQFMB7UXdqSqKwUgR3aQow4CSzFoZkK7PAlEQJhrRDaKb5l3SJw8kMWLBkgqSGEqA/AL7uvu6FU0+jAAAAABJRU5ErkJggg==",

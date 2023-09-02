@@ -36,7 +36,7 @@ ITEM_DEFINITIONS = dict()
 NPC_DEFINITIONS = dict()
 OBJECT_DEFINITIONS = dict()
 
-all_cache_items = sorted(Path(config.DATA_CACHE_PATH / "items").glob("*.json"),
+all_cache_items = sorted(Path(config.DATA_CACHE_PATH / "item_defs").glob("*.json"),
                          key=lambda path: int(path.stem))
 if len(all_cache_items) == 0:
     print(">>> ERROR: scripts.cache.cache_constants")
@@ -46,7 +46,7 @@ for cache_file in all_cache_items:
         data = json.load(f)
         ITEM_DEFINITIONS[str(data["id"])] = data
 
-all_cache_npcs = sorted(Path(config.DATA_CACHE_PATH / "npcs").glob("*.json"),
+all_cache_npcs = sorted(Path(config.DATA_CACHE_PATH / "npc_defs").glob("*.json"),
                         key=lambda path: int(path.stem))
 if len(all_cache_npcs) == 0:
     print(">>> ERROR: scripts.cache.cache_constants")
@@ -56,7 +56,7 @@ for cache_file in all_cache_npcs:
         data = json.load(f)
         NPC_DEFINITIONS[str(data["id"])] = data
 
-all_cache_objects = sorted(Path(config.DATA_CACHE_PATH / "objects").glob("*.json"),
+all_cache_objects = sorted(Path(config.DATA_CACHE_PATH / "object_defs").glob("*.json"),
                            key=lambda path: int(path.stem))
 if len(all_cache_objects) == 0:
     print(">>> ERROR: scripts.cache.cache_constants")

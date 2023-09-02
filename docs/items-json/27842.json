@@ -1,7 +1,7 @@
 {
     "id": 27842,
     "name": "Corrupted vesta's chainbody (bh)",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": false,
@@ -30,9 +30,9 @@
     "wiki_name": "Corrupted vesta's chainbody (bh) (Activated)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Corrupted_vesta's_chainbody_(bh)#Activated",
     "equipment": {
-        "attack_stab": 8,
-        "attack_slash": 8,
-        "attack_crush": 8,
+        "attack_stab": 14,
+        "attack_slash": 14,
+        "attack_crush": 4,
         "attack_magic": -28,
         "attack_ranged": -14,
         "defence_stab": 25,

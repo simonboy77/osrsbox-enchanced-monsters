@@ -1,7 +1,7 @@
 {
     "id": 26386,
     "name": "Torva platelegs",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2022-01-05",
     "duplicate": false,
     "examine": "An ancient warrior's platelegs.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACmUlEQVR4Xt2X20sqURTG3f9J0ENPQQQiEoIhIaFIciSxMCrpQjfoRveI7hRRVHSlLIyioCAo6M23fOtfWodvydrOjNDLOXsHLViMs9XZP7615lszPt/vCEXV+SNR3rw1EqGWcJiaQyFqCgYp4Pf/BJii9mSS808iwdkWi3HGo1GdlqAUZdNpyqRSGgqfJQUOyuG3DTU1pqEUdXdkNJQ3AQR1UEZrQEO5HA309FBfVxenE+7q+LgKynuF/xiKRvr7XUB3lxdVQCijpbIpWpmbo+WZGZqfnKTZ8XF6uL7inBodoYnhYYoE4nR5eEi9nZ0MCDBDKinaWFrkFKjXh3sGEKBoMMnnhfMzVhG9BrUMqVQBQq4tLNDb06OGABCOOH/M52lscJDLCihjQFsryzoB9fH8rIGaGiJ8/A7Ke8V/jApQqVikjtgApVq6NYQTKBHOcKLh8ycnDGVMpa/PT8rGhygdzVGyOcsAYX8rBepDGigWSrFKOKK/BMYAEEJpdQAEGKjTWBfUcFJGpGEYhGJ1AISyiDr1tY0uIAE1VCpnlIHgQfAd3N5wZEx6NC9c2utBxoGwITYvvr/z3QYjFKDd1VX2IYG0AgRVvkolOtrZYT86O9hnEBz31tdpcXqaP+N7K0CYZ1DlYHubXRuAWMfa/uYmuzh+Y6GhEYoND/4im2PIYv329FSrJpCGYSQUlwb9g/KgkbEGxQQGTW0VCHPs6eaGVYFSmP5YeykU+BEEPWXheUhC8TBF6aCGKIQRgTsQ6ZzyFlRS7EFoXECI38ggFT+yWjIxRTS0PBkKEJ4gLZmiREUhlEeAsAYoNLS8BlkDQg8JkGzuBLLYPwg3kPQL1rxA3n8aDPf7fHlz97llIJ9PNnVu7j3/VfEXY6zbmcs8JMUAAAAASUVORK5CYII=",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACJklEQVR4Xt2Xz0sCURDHff9Bpy5dBA+CICyCLCILhoSEIUmSmCSVZJEllVnRDzEiIqEuRbf+1onvLLO+Xe3We0YDw9sd0fkw35nZNRb7H6Zo2udmipKJxJTPCUzRsudRPpejna0Gn9v1OrnZLGUch90ilKKVQoGB9lstPuECJlDpVMoGlKLNapV9o1Khu8GA1svlwK/PzhgWYFIlJx43CfWngMIws4Bu+n1aLRZZQkhnHWh4dcUguMbpJop0edqzDwR/ur9jAKkOruGzZIv+0i+YokatFvLn0ZABMnEvBAQZRTZAGaqS4j0jDqCXh1EAlF5yAyC49JKsBwNVUvT59hp42atR0V1jmChQIbvKjl66ODmm3uEhHXc6ZqC+Pj6oUmhQKVcNgACTXHRCQHnHPyGfD+LLZkQ6VAdASPgTkJv22HUQAzAwHwjVQWKBiS8kAyBUBzCZpLGG1s0ffUyVvgAx3thF0ZgVIEwZoPAwPWq3g30DIMTQwPKQtQKEpAe7u3wCbK/ZZEg9hmvErQAhESqDE/sIMiGOmACtlUomJ0u3aSBJrgMJpGEYMcUL7308psfbWzrvdjk5FiGeb/gMG9oqEBoXfYI3RqmIxKKyRb9twPxJg1y6PDJ9shIs9RBskhyjLvLoQNYl04HkFUNikEqe8HMBkgWoS2jwPWiWTZIDSKohMYs7SCwMJA0sMfSQxeqIhf/P+8nD95aBYjFJqieP3v8r+wbN240C/xUCjQAAAABJRU5ErkJggg==",
     "wiki_name": "Torva platelegs (Restored)",
     "wiki_url": "https://oldschool.runescape.wiki/w/Torva_platelegs#Restored",
     "equipment": {

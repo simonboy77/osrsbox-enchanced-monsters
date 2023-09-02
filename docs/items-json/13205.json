@@ -1,7 +1,7 @@
 {
     "id": 13205,
     "name": "Rotten egg",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": false,
@@ -26,7 +26,7 @@
     "release_date": "2015-07-02",
     "duplicate": false,
     "examine": "A disconcertingly purple egg",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABjklEQVR4Xu2W8UcDYRzG9/4H/QmjH44YMyaTsZnMaXJzM5KomJKKUplKpkymUivLNGNEEpFIkkgi/VXfPO+8d7eL3C/ve/3wPjzufjju4/t8n/cuEtHS0tIKKkauQxejQ/OOe3XsOGwwRpfFN8dbmRYtpeo0k9gMA4pRu/juuJ6/pe1sh09pPrnDgeLRqEooRlf2h+OGeU97uR5tpM9pYXSfyrEVlVNi1Cl9Dvik8Ei18Wse23KqQbOJKkWHDFVQjLqlrwE3J59/xSamJDk6Rr3yN7eAQWSYEIB2c11aT59RJVnjQNlhW/aUXCABhYadFp549b17NBVfI9OYlh3dIBCMliEyLLbYI1F/a6TiAEmKLjgQFjs0oAvrhY4mHuggf0PVTNtpmhIgscxBgOzYogMjDQitwtkjoLxAaBoi8x6OEmGE+t8wgAAO99ghtAy1x3Sw0GiYxKj8YrzqmEzLeuXTwUKj8jiDCsacqul41f/1AAyuOKURlYK9+UvenzPXIcH0JV7ut/85LS2t/6Yf7xS801smL5EAAAAASUVORK5CYII=",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAB+UlEQVR4Xu2WyUojYRSF/V/CdcAX6EdwL7hRbBRcqDiA2jjgLBJnAqHbYHewDeJAUKKEOKIhRI0SgxpDGrtbY9SOQzvrKxy5N1QZy42bqnJRB86uoD7OvedWpaUZMmTI0Hsl8GLdJbBuP8bq9zhGG3x6gwn89d/gt+8a+94rTLdvY6hmAb3FI3pACRwGbtkHazec0mxnlFP6Wj7FQJ9MJi2hBI6Cd+zY5h2CY/+w1PMHky2b+FHtgbnQrmVKAsfb9+x4KOkd1xm8lhiPbbh2Cf0lYzClZ2gFJXAafmSf7D6wI3OXvNg0tvFGPwYqXGgrsGkxOoFE5JEtQdHIKCECmu/6BWdzAINVbh5bfmaF2ikJnEWfXkFRy3ZnznmxF7v35T3qLnKgLKtZ7dElgVKhqPph9wUCP0+w3HuAqdagXP/63D4ZSKXRvQWi2u95LrDhOMVKfwyutpC82A15FvWBaExKIFpqqr7UNEfdMiylE2j6bFUfiFpFUEqgrYkEfNYjuM1hjNR7YS1zoiX/mwyjGhBdZzqIdIcILBXIb4tzQvYvc/JxVBFGkuBvFy0zwVHLpKWm2lM6tNCV2R1qjkopwRDRhf8MR+nQQlPlbZUzqMnp0SqdVAluVsiZ4HQ85gjfH2qWDjCSUn/OXqwTTFLSy5VWPmfIkKGPpmcQlyf+h2MWCwAAAABJRU5ErkJggg==",
     "wiki_name": "Rotten egg",
     "wiki_url": "https://oldschool.runescape.wiki/w/Rotten_egg",
     "equipment": null,

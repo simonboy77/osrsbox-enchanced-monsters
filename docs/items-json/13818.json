@@ -1,7 +1,7 @@
 {
     "id": 13818,
     "name": "Maple roots",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2005-07-11",
     "duplicate": true,
     "examine": "The roots of the Maple tree.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACBklEQVR4XtWWsUvEMBjFm/+gU+YDN0FwucFBcLlJcblBRHS4QUFuUERRRHBwcHAQ/IMjL493SdOrttW03AdBL+0lv773vvSKYjPKuOoYrQhwe1G6q5PSnR+X7uigGAvKuLcb616urbtflG55RqD5jEC7k8mQUMZ9PFj3fmfd69K6p8vSq7SY/wSU1VbjPh+th5JKsu30sHSzvdQ2462MRwYwQkkl2JYCUSVmDJYKAkpq/DuUVIJtylEKpOvTnVgZDtxTt/dPZbxKsq0OFO6RSoLIAKMyK9tSe4IltLieryxF6wAlIPxFeGObvp6tVzDMZS1CKUv4jP/TPOnM2t4aCEpZgQpQDF0XA0E55A1KDQaF9gcQFFNrx0CyF1DhWrYylZwAIAYSIAIOpQZ49xlvE1TiRvFZYyohV+YyWcdNAIInhyXaKD6PoFDcfeg8BD1AxUdF7zKrUxqLa1EoVX/6sKlUw8D3cP/+ND4qehcXrIY0bJJCpae07tc5Fp/2PcGMt6naUZxHRtp3EwGwTvr7qiMYX6B1IF4DbKpSczGHAYKfdZ61W8NXyEVdCdrRDop51IjBMDr9ZFkPo+JGbaHSBwxrNz105+IhqS78bcEqRP1aOtej2HUYnWTPV3ylSKnQPaMU2z9YxTy1sS5TpUCcC+09eK0D4vyIeWpq16b5Aapp06b5jaxv8ocfaNdQTIYAAAAASUVORK5CYII=",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACSUlEQVR4XtWWT0sDMRDFm2/gyUsvhR4KhUJZKKWUwpYiIhRBFAoWhCL+QVRUFAQvIngQPIggCCL4TUdextkku126rc0uHQiVJCa/vHmZbKm0GqHIbYUFAzyOW3S3F9DRVp12u9WioBS9n/Xo7aRHTwdtuh8FdDps0ChkoGalkieUoq+rPn1ehhrq5bBDD/stuthu0LhfSwHymlZF3zcDDfVxHtLrcVerdL3TpMlGjYZtwNibKp1KaaLiksEYCiohbc+TTuQjAWKVlFYPKRUIKClt6VBQSdImPhJjCxDGARw2ypYy3DAnmd5/hYrSJj5ygcwcKGhDeICRUNFtA5RsbBrPgZpJf3kJ3gxQAoRfmLdTX4/Afm4HOqWmz2swFLwiBsbfcYOjiGI8Nyh4BepgQyiGMhAHgt+gVFBdywcK9QhAUEyutg2EcgEolAgz5i2U4xOoZQMJIKBQKkyR9BZKpwkq8UZ2rVFOLRLPeUodbwIQnBz+kY3segSF7NuHm4dyYaDsUrFwqOjZgEdkUSiVPL3ZVFRDw/9h/mZQXsYN5AVdk5pN4lDxKi3zpY7Zz8+CYEqnCQsZIO5HOrLfJgZAWkVx+ZyZE4wfUPeKmzHAxlVKD/ahgWBAOVS2NXQYXySV4HTUylmg2I/SbDCBm73GX0yHkVD6ycgKFT+gWTvt0HMHF0l4ShaNz7DDhUiOxfsWCDa4fOrOVsl78JOCX5QDc3sKCVbHpIr9lCV1noK/jVwAvk0FqTQNiPsL9FPadU3rzyHSNk3rX8n4BXpIO0BxXCzqAAAAAElFTkSuQmCC",
     "wiki_name": "Maple roots",
     "wiki_url": "https://oldschool.runescape.wiki/w/Maple_roots",
     "equipment": null,

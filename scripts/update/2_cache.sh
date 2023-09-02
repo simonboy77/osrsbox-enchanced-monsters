@@ -38,38 +38,38 @@ jar_file=$(ls | grep .shaded.jar)
 echo -e "  > Extracting osrs-cache..."
 rm -rf $odb/data/cache/cache-data
 mkdir -p $odb/data/cache/cache-data
-java -jar $jar_file unpack $odb/data/cache/osrs-cache $odb/data/cache/cache-data
+java -jar $jar_file dump all $odb/data/cache/osrs-cache $odb/data/cache
 
-echo -e ">>> runelite..."
-cd $rl
-git pull
-
-echo -e "  > Building RuneLite..."
-mvn clean
-mvn install -DskipTests
-
-# Find the cache.jar file with current version and bundled with dependencies
-# For example: cache-1.5.27-SNAPSHOT-jar-with-dependencies.jar
-cd $rl/cache/target
-jar_file=$(ls | grep .jar-with-dependencies.)
-
-# Remove old cache dumps
-echo -e "  > Removing the old cache dump in osrsbox-db..."
-rm -r $odb/data/cache/items/
-rm -r $odb/data/cache/npcs/
-rm -r $odb/data/cache/objects/
-
-# Dump the cache
-echo -e "  > Dumping cache using RuneLite cache tool..."
-echo -e "Jarfile: $jar_file"
-java -classpath $jar_file net.runelite.cache.Cache \
--cache $odb/data/cache/cache-data \
--items $odb/data/cache/items
-
-java -classpath $jar_file net.runelite.cache.Cache \
--cache $odb/data/cache/cache-data \
--npcs $odb/data/cache/npcs
-
-java -classpath $jar_file net.runelite.cache.Cache \
--cache $odb/data/cache/cache-data \
--objects $odb/data/cache/objects
+#echo -e ">>> runelite..."
+#cd $rl
+#git pull
+#
+#echo -e "  > Building RuneLite..."
+#mvn clean
+#mvn install -DskipTests
+#
+## Find the cache.jar file with current version and bundled with dependencies
+## For example: cache-1.5.27-SNAPSHOT-jar-with-dependencies.jar
+#cd $rl/cache/target
+#jar_file=$(ls | grep .jar-with-dependencies.)
+#
+## Remove old cache dumps
+#echo -e "  > Removing the old cache dump in osrsbox-db..."
+#rm -r $odb/data/cache/items/
+#rm -r $odb/data/cache/npcs/
+#rm -r $odb/data/cache/objects/
+#
+## Dump the cache
+#echo -e "  > Dumping cache using RuneLite cache tool..."
+#echo -e "Jarfile: $jar_file"
+#java -classpath $jar_file net.runelite.cache.Cache \
+#-cache $odb/data/cache/cache-data \
+#-items $odb/data/cache/items
+#
+#java -classpath $jar_file net.runelite.cache.Cache \
+#-cache $odb/data/cache/cache-data \
+#-npcs $odb/data/cache/npcs
+#
+#java -classpath $jar_file net.runelite.cache.Cache \
+#-cache $odb/data/cache/cache-data \
+#-objects $odb/data/cache/objects

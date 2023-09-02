@@ -1,7 +1,7 @@
 {
     "id": 11709,
     "name": "Cursed goblin staff",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": false,
@@ -48,7 +48,7 @@
         "requirements": null
     },
     "weapon": {
-        "attack_speed": 5,
+        "attack_speed": 4,
         "weapon_type": "staff",
         "stances": [
             {

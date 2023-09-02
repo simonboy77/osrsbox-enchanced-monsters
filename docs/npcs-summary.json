@@ -2663,10 +2663,6 @@
         "id": 683,
         "name": "Damis"
     },
-    "684": {
-        "id": 684,
-        "name": "Archaeologist"
-    },
     "685": {
         "id": 685,
         "name": "Stranger"
@@ -13355,10 +13351,6 @@
         "id": 3578,
         "name": "Akthanakos"
     },
-    "3579": {
-        "id": 3579,
-        "name": "Akthanakos"
-    },
     "3580": {
         "id": 3580,
         "name": "Lazim"
@@ -13597,7 +13589,7 @@
     },
     "3639": {
         "id": 3639,
-        "name": "Archaeological expert"
+        "name": "Terry Balando"
     },
     "3640": {
         "id": 3640,
@@ -21653,19 +21645,19 @@
     },
     "5823": {
         "id": 5823,
-        "name": "Ice troll runt"
+        "name": "Frenzied ice troll runt"
     },
     "5824": {
         "id": 5824,
-        "name": "Ice troll male"
+        "name": "Frenzied ice troll male"
     },
     "5825": {
         "id": 5825,
-        "name": "Ice troll female"
+        "name": "Frenzied ice troll female"
     },
     "5826": {
         "id": 5826,
-        "name": "Ice troll grunt"
+        "name": "Frenzied ice troll grunt"
     },
     "5827": {
         "id": 5827,
@@ -24167,10 +24159,6 @@
         "id": 6716,
         "name": "Chaotic death spawn"
     },
-    "6717": {
-        "id": 6717,
-        "name": "Beaver"
-    },
     "6718": {
         "id": 6718,
         "name": "Baby Chinchompa"
@@ -24197,7 +24185,7 @@
     },
     "6724": {
         "id": 6724,
-        "name": "Beaver"
+        "name": "Friendly Forester"
     },
     "6725": {
         "id": 6725,
@@ -37985,7 +37973,7 @@
     },
     "11427": {
         "id": 11427,
-        "name": "Apprentice Cordelia"
+        "name": "Friendly Forester"
     },
     "11428": {
         "id": 11428,
@@ -40111,14 +40099,6 @@
         "id": 12118,
         "name": "Corrupted Warrior"
     },
-    "12119": {
-        "id": 12119,
-        "name": "Annie"
-    },
-    "12120": {
-        "id": 12120,
-        "name": "Quinton"
-    },
     "12121": {
         "id": 12121,
         "name": "Sir Pear Visor"
@@ -40163,18 +40143,6 @@
         "id": 12131,
         "name": "Elidinis' Warden"
     },
-    "12133": {
-        "id": 12133,
-        "name": "Tabbitha"
-    },
-    "12134": {
-        "id": 12134,
-        "name": "Bethan"
-    },
-    "12135": {
-        "id": 12135,
-        "name": "Gregory"
-    },
     "12137": {
         "id": 12137,
         "name": "Dallas Jones"
@@ -40187,64 +40155,904 @@
         "id": 12139,
         "name": "Zorgoth"
     },
-    "12145": {
-        "id": 12145,
-        "name": "Love"
-    },
-    "12146": {
-        "id": 12146,
-        "name": "???"
-    },
-    "12147": {
-        "id": 12147,
-        "name": "Love"
-    },
-    "12148": {
-        "id": 12148,
-        "name": "Marissa"
-    },
-    "12149": {
-        "id": 12149,
-        "name": "Thomas"
-    },
-    "12150": {
-        "id": 12150,
-        "name": "Mikey"
-    },
-    "12151": {
-        "id": 12151,
-        "name": "Klaus"
-    },
-    "12152": {
-        "id": 12152,
-        "name": "Marissa"
-    },
     "12153": {
         "id": 12153,
-        "name": "Thomas"
+        "name": "Wisp"
     },
     "12154": {
         "id": 12154,
-        "name": "Mikey"
+        "name": "Butch"
     },
     "12155": {
         "id": 12155,
-        "name": "Klaus"
+        "name": "Baron"
     },
     "12156": {
         "id": 12156,
-        "name": "Quinton"
+        "name": "Lil'viathan"
     },
     "12157": {
         "id": 12157,
-        "name": "Gregory"
+        "name": "Wisp"
     },
     "12158": {
         "id": 12158,
-        "name": "Bethan"
+        "name": "Butch"
     },
     "12159": {
         "id": 12159,
-        "name": "Tabbitha"
+        "name": "Baron"
+    },
+    "12160": {
+        "id": 12160,
+        "name": "Lil'viathan"
+    },
+    "12161": {
+        "id": 12161,
+        "name": "Mysterious Voice"
+    },
+    "12162": {
+        "id": 12162,
+        "name": "Asgarnia Smith"
+    },
+    "12163": {
+        "id": 12163,
+        "name": "Woodcutting Leprechaun"
+    },
+    "12166": {
+        "id": 12166,
+        "name": "Duke Sucellus"
+    },
+    "12167": {
+        "id": 12167,
+        "name": "Duke Sucellus"
+    },
+    "12168": {
+        "id": 12168,
+        "name": "Friendly Bees"
+    },
+    "12169": {
+        "id": 12169,
+        "name": "Beaver"
+    },
+    "12170": {
+        "id": 12170,
+        "name": "Beaver"
+    },
+    "12171": {
+        "id": 12171,
+        "name": "Beaver"
+    },
+    "12172": {
+        "id": 12172,
+        "name": "Beaver"
+    },
+    "12173": {
+        "id": 12173,
+        "name": "Beaver"
+    },
+    "12174": {
+        "id": 12174,
+        "name": "Beaver"
+    },
+    "12175": {
+        "id": 12175,
+        "name": "Beaver"
+    },
+    "12176": {
+        "id": 12176,
+        "name": "Beaver"
+    },
+    "12177": {
+        "id": 12177,
+        "name": "Beaver"
+    },
+    "12178": {
+        "id": 12178,
+        "name": "Beaver"
+    },
+    "12179": {
+        "id": 12179,
+        "name": "Apprentice Cordelia"
+    },
+    "12180": {
+        "id": 12180,
+        "name": "Apprentice Cordelia"
+    },
+    "12181": {
+        "id": 12181,
+        "name": "Beaver"
+    },
+    "12182": {
+        "id": 12182,
+        "name": "Beaver"
+    },
+    "12183": {
+        "id": 12183,
+        "name": "Beaver"
+    },
+    "12184": {
+        "id": 12184,
+        "name": "Beaver"
+    },
+    "12185": {
+        "id": 12185,
+        "name": "Beaver"
+    },
+    "12186": {
+        "id": 12186,
+        "name": "Beaver"
+    },
+    "12187": {
+        "id": 12187,
+        "name": "Beaver"
+    },
+    "12188": {
+        "id": 12188,
+        "name": "Beaver"
+    },
+    "12189": {
+        "id": 12189,
+        "name": "Beaver"
+    },
+    "12190": {
+        "id": 12190,
+        "name": "Beaver"
+    },
+    "12191": {
+        "id": 12191,
+        "name": "Duke Sucellus"
+    },
+    "12192": {
+        "id": 12192,
+        "name": "Duke Sucellus"
+    },
+    "12193": {
+        "id": 12193,
+        "name": "Duke Sucellus"
+    },
+    "12194": {
+        "id": 12194,
+        "name": "Duke Sucellus"
+    },
+    "12195": {
+        "id": 12195,
+        "name": "Duke Sucellus"
+    },
+    "12196": {
+        "id": 12196,
+        "name": "Duke Sucellus"
+    },
+    "12203": {
+        "id": 12203,
+        "name": "Odd Figure"
+    },
+    "12204": {
+        "id": 12204,
+        "name": "The Whisperer"
+    },
+    "12205": {
+        "id": 12205,
+        "name": "The Whisperer"
+    },
+    "12206": {
+        "id": 12206,
+        "name": "The Whisperer"
+    },
+    "12207": {
+        "id": 12207,
+        "name": "The Whisperer"
+    },
+    "12211": {
+        "id": 12211,
+        "name": "Lost Soul"
+    },
+    "12212": {
+        "id": 12212,
+        "name": "Lost Soul"
+    },
+    "12213": {
+        "id": 12213,
+        "name": "Odd Figure"
+    },
+    "12214": {
+        "id": 12214,
+        "name": "The Leviathan"
+    },
+    "12215": {
+        "id": 12215,
+        "name": "The Leviathan"
+    },
+    "12216": {
+        "id": 12216,
+        "name": "Tail"
+    },
+    "12217": {
+        "id": 12217,
+        "name": "Tail"
+    },
+    "12218": {
+        "id": 12218,
+        "name": "Tail"
+    },
+    "12219": {
+        "id": 12219,
+        "name": "The Leviathan"
+    },
+    "12220": {
+        "id": 12220,
+        "name": "Abyssal pathfinder"
+    },
+    "12221": {
+        "id": 12221,
+        "name": "The Leviathan?"
+    },
+    "12223": {
+        "id": 12223,
+        "name": "Vardorvis"
+    },
+    "12224": {
+        "id": 12224,
+        "name": "Vardorvis"
+    },
+    "12225": {
+        "id": 12225,
+        "name": "Large Tendril"
+    },
+    "12226": {
+        "id": 12226,
+        "name": "Vardorvis' Head"
+    },
+    "12228": {
+        "id": 12228,
+        "name": "Vardorvis"
+    },
+    "12230": {
+        "id": 12230,
+        "name": "Helena"
+    },
+    "12231": {
+        "id": 12231,
+        "name": "Prescott"
+    },
+    "12232": {
+        "id": 12232,
+        "name": "Ketla"
+    },
+    "12233": {
+        "id": 12233,
+        "name": "Ketla"
+    },
+    "12234": {
+        "id": 12234,
+        "name": "Lost Soul"
+    },
+    "12235": {
+        "id": 12235,
+        "name": "Me?"
+    },
+    "12236": {
+        "id": 12236,
+        "name": "Me?"
+    },
+    "12237": {
+        "id": 12237,
+        "name": "Mysterious Voice"
+    },
+    "12238": {
+        "id": 12238,
+        "name": "Mysterious Voice"
+    },
+    "12239": {
+        "id": 12239,
+        "name": "Mysterious Voice"
+    },
+    "12240": {
+        "id": 12240,
+        "name": "Mysterious Voice"
+    },
+    "12241": {
+        "id": 12241,
+        "name": "Mysterious Voice"
+    },
+    "12242": {
+        "id": 12242,
+        "name": "Mysterious Voice"
+    },
+    "12243": {
+        "id": 12243,
+        "name": "Mysterious Voice"
+    },
+    "12244": {
+        "id": 12244,
+        "name": "Mysterious Voice"
+    },
+    "12245": {
+        "id": 12245,
+        "name": "Mysterious Voice"
+    },
+    "12246": {
+        "id": 12246,
+        "name": "Mysterious Voice"
+    },
+    "12247": {
+        "id": 12247,
+        "name": "Mysterious Voice"
+    },
+    "12248": {
+        "id": 12248,
+        "name": "Shadow Keeper"
+    },
+    "12249": {
+        "id": 12249,
+        "name": "Crawling Hand"
+    },
+    "12254": {
+        "id": 12254,
+        "name": "Ghost"
+    },
+    "12255": {
+        "id": 12255,
+        "name": "Barus"
+    },
+    "12256": {
+        "id": 12256,
+        "name": "Kasonde"
+    },
+    "12257": {
+        "id": 12257,
+        "name": "Kasonde"
+    },
+    "12258": {
+        "id": 12258,
+        "name": "Kasonde"
+    },
+    "12259": {
+        "id": 12259,
+        "name": "Kasonde"
+    },
+    "12260": {
+        "id": 12260,
+        "name": "Kasonde"
+    },
+    "12261": {
+        "id": 12261,
+        "name": "Kasonde"
+    },
+    "12262": {
+        "id": 12262,
+        "name": "Kasonde"
+    },
+    "12263": {
+        "id": 12263,
+        "name": "Kasonde"
+    },
+    "12264": {
+        "id": 12264,
+        "name": "Kasonde"
+    },
+    "12267": {
+        "id": 12267,
+        "name": "Fishing spot"
+    },
+    "12268": {
+        "id": 12268,
+        "name": "Strangled"
+    },
+    "12269": {
+        "id": 12269,
+        "name": "Strangled"
+    },
+    "12270": {
+        "id": 12270,
+        "name": "Strangled"
+    },
+    "12271": {
+        "id": 12271,
+        "name": "Strangled"
+    },
+    "12272": {
+        "id": 12272,
+        "name": "Strangled"
+    },
+    "12273": {
+        "id": 12273,
+        "name": "Strangled"
+    },
+    "12274": {
+        "id": 12274,
+        "name": "Strangled"
+    },
+    "12275": {
+        "id": 12275,
+        "name": "Strangled"
+    },
+    "12276": {
+        "id": 12276,
+        "name": "Strangled"
+    },
+    "12277": {
+        "id": 12277,
+        "name": "Strangled"
+    },
+    "12278": {
+        "id": 12278,
+        "name": "Strangled"
+    },
+    "12279": {
+        "id": 12279,
+        "name": "Strangled"
+    },
+    "12280": {
+        "id": 12280,
+        "name": "Strangled"
+    },
+    "12281": {
+        "id": 12281,
+        "name": "Strangled"
+    },
+    "12282": {
+        "id": 12282,
+        "name": "Strangled"
+    },
+    "12283": {
+        "id": 12283,
+        "name": "Strangled"
+    },
+    "12284": {
+        "id": 12284,
+        "name": "Strangled"
+    },
+    "12285": {
+        "id": 12285,
+        "name": "Strangled"
+    },
+    "12286": {
+        "id": 12286,
+        "name": "Strangled"
+    },
+    "12287": {
+        "id": 12287,
+        "name": "Strangled"
+    },
+    "12288": {
+        "id": 12288,
+        "name": "Strangled Bear"
+    },
+    "12289": {
+        "id": 12289,
+        "name": "Strangled Boar"
+    },
+    "12290": {
+        "id": 12290,
+        "name": "Strangled Lynx"
+    },
+    "12291": {
+        "id": 12291,
+        "name": "Asgarnia Smith"
+    },
+    "12292": {
+        "id": 12292,
+        "name": "Asgarnia Smith"
+    },
+    "12293": {
+        "id": 12293,
+        "name": "Dr Banikan"
+    },
+    "12294": {
+        "id": 12294,
+        "name": "Dr Banikan"
+    },
+    "12295": {
+        "id": 12295,
+        "name": "Mysterious Voice"
+    },
+    "12297": {
+        "id": 12297,
+        "name": "Mysterious Figure"
+    },
+    "12298": {
+        "id": 12298,
+        "name": "Mysterious Figure"
+    },
+    "12299": {
+        "id": 12299,
+        "name": "Sandwich lady"
+    },
+    "12300": {
+        "id": 12300,
+        "name": "Mysterious Figure"
+    },
+    "12301": {
+        "id": 12301,
+        "name": "Mysterious Figure"
+    },
+    "12302": {
+        "id": 12302,
+        "name": "Hazeel"
+    },
+    "12303": {
+        "id": 12303,
+        "name": "Hazeel"
+    },
+    "12304": {
+        "id": 12304,
+        "name": "Hazeel"
+    },
+    "12305": {
+        "id": 12305,
+        "name": "Azzanadra"
+    },
+    "12306": {
+        "id": 12306,
+        "name": "Azzanadra"
+    },
+    "12307": {
+        "id": 12307,
+        "name": "Azzanadra"
+    },
+    "12308": {
+        "id": 12308,
+        "name": "Azzanadra"
+    },
+    "12309": {
+        "id": 12309,
+        "name": "Enakhra"
+    },
+    "12310": {
+        "id": 12310,
+        "name": "Enakhra"
+    },
+    "12311": {
+        "id": 12311,
+        "name": "Akthanakos"
+    },
+    "12312": {
+        "id": 12312,
+        "name": "Akthanakos"
+    },
+    "12313": {
+        "id": 12313,
+        "name": "Akthanakos"
+    },
+    "12314": {
+        "id": 12314,
+        "name": "Sliske"
+    },
+    "12315": {
+        "id": 12315,
+        "name": "Sliske"
+    },
+    "12316": {
+        "id": 12316,
+        "name": "Ahrim the Blighted"
+    },
+    "12317": {
+        "id": 12317,
+        "name": "Dharok the Wretched"
+    },
+    "12318": {
+        "id": 12318,
+        "name": "Guthan the Infested"
+    },
+    "12319": {
+        "id": 12319,
+        "name": "Karil the Tainted"
+    },
+    "12320": {
+        "id": 12320,
+        "name": "Torag the Corrupted"
+    },
+    "12321": {
+        "id": 12321,
+        "name": "Verac the Defiled"
+    },
+    "12322": {
+        "id": 12322,
+        "name": "Ahrim the Blighted"
+    },
+    "12323": {
+        "id": 12323,
+        "name": "Dharok the Wretched"
+    },
+    "12324": {
+        "id": 12324,
+        "name": "Guthan the Infested"
+    },
+    "12325": {
+        "id": 12325,
+        "name": "Karil the Tainted"
+    },
+    "12326": {
+        "id": 12326,
+        "name": "Torag the Corrupted"
+    },
+    "12327": {
+        "id": 12327,
+        "name": "Verac the Defiled"
+    },
+    "12328": {
+        "id": 12328,
+        "name": "The Forsaken Assassin"
+    },
+    "12329": {
+        "id": 12329,
+        "name": "Ketla the Unworthy"
+    },
+    "12330": {
+        "id": 12330,
+        "name": "Ketla the Unworthy"
+    },
+    "12331": {
+        "id": 12331,
+        "name": "Kasonde the Craven"
+    },
+    "12332": {
+        "id": 12332,
+        "name": "Kasonde the Craven"
+    },
+    "12333": {
+        "id": 12333,
+        "name": "Persten the Deceitful"
+    },
+    "12335": {
+        "id": 12335,
+        "name": "Wighted Leech"
+    },
+    "12336": {
+        "id": 12336,
+        "name": "Ancient Guardian"
+    },
+    "12337": {
+        "id": 12337,
+        "name": "Ancient Guardian"
+    },
+    "12338": {
+        "id": 12338,
+        "name": "Golem"
+    },
+    "12347": {
+        "id": 12347,
+        "name": "Mysterious Bandit"
+    },
+    "12348": {
+        "id": 12348,
+        "name": "Assassin"
+    },
+    "12349": {
+        "id": 12349,
+        "name": "Assassin"
+    },
+    "12350": {
+        "id": 12350,
+        "name": "Assassin"
+    },
+    "12351": {
+        "id": 12351,
+        "name": "Assassin"
+    },
+    "12352": {
+        "id": 12352,
+        "name": "Mysterious Voice"
+    },
+    "12353": {
+        "id": 12353,
+        "name": "Jhallan"
+    },
+    "12354": {
+        "id": 12354,
+        "name": "Jhallan"
+    },
+    "12355": {
+        "id": 12355,
+        "name": "Jhallan"
+    },
+    "12356": {
+        "id": 12356,
+        "name": "Cerebral pathfinder"
+    },
+    "12357": {
+        "id": 12357,
+        "name": "Cerebral pathbreaker"
+    },
+    "12360": {
+        "id": 12360,
+        "name": "Scarred lesser demon"
+    },
+    "12361": {
+        "id": 12361,
+        "name": "Lesser demon"
+    },
+    "12362": {
+        "id": 12362,
+        "name": "Scarred lesser demon"
+    },
+    "12363": {
+        "id": 12363,
+        "name": "Lesser demon"
+    },
+    "12364": {
+        "id": 12364,
+        "name": "Scarred lesser demon"
+    },
+    "12365": {
+        "id": 12365,
+        "name": "Lesser demon"
+    },
+    "12366": {
+        "id": 12366,
+        "name": "Abyssal leech"
+    },
+    "12367": {
+        "id": 12367,
+        "name": "Light leech"
+    },
+    "12368": {
+        "id": 12368,
+        "name": "Light leech"
+    },
+    "12369": {
+        "id": 12369,
+        "name": "Crimson sanguisphera"
+    },
+    "12370": {
+        "id": 12370,
+        "name": "Radiant sanguisphera"
+    },
+    "12372": {
+        "id": 12372,
+        "name": "Abyssal antibody"
+    },
+    "12373": {
+        "id": 12373,
+        "name": "Scarred greater demon"
+    },
+    "12374": {
+        "id": 12374,
+        "name": "Scarred hellhound"
+    },
+    "12375": {
+        "id": 12375,
+        "name": "Abyssal axon"
+    },
+    "12376": {
+        "id": 12376,
+        "name": "Lesser demon"
+    },
+    "12377": {
+        "id": 12377,
+        "name": "Scarred imp"
+    },
+    "12378": {
+        "id": 12378,
+        "name": "Scarred lesser demon"
+    },
+    "12379": {
+        "id": 12379,
+        "name": "Scarred hellhound"
+    },
+    "12380": {
+        "id": 12380,
+        "name": "Wizard Persten"
+    },
+    "12381": {
+        "id": 12381,
+        "name": "Wizard Persten"
+    },
+    "12382": {
+        "id": 12382,
+        "name": "Wizard Persten"
+    },
+    "12383": {
+        "id": 12383,
+        "name": "Catalytic Guardian"
+    },
+    "12384": {
+        "id": 12384,
+        "name": "Catalytic Guardian"
+    },
+    "12385": {
+        "id": 12385,
+        "name": "Black demon"
+    },
+    "12386": {
+        "id": 12386,
+        "name": "Scarred black demon"
+    },
+    "12387": {
+        "id": 12387,
+        "name": "Greater demon"
+    },
+    "12388": {
+        "id": 12388,
+        "name": "Scarred greater demon"
+    },
+    "12389": {
+        "id": 12389,
+        "name": "Lesser demon"
+    },
+    "12390": {
+        "id": 12390,
+        "name": "Scarred lesser demon"
+    },
+    "12391": {
+        "id": 12391,
+        "name": "Abyssal leech"
+    },
+    "12392": {
+        "id": 12392,
+        "name": "Abyssal walker"
+    },
+    "12393": {
+        "id": 12393,
+        "name": "Abyssal leech"
+    },
+    "12394": {
+        "id": 12394,
+        "name": "Abyssal walker"
+    },
+    "12395": {
+        "id": 12395,
+        "name": "Enakhra"
+    },
+    "12397": {
+        "id": 12397,
+        "name": "Akthanakos"
+    },
+    "12398": {
+        "id": 12398,
+        "name": "Akthanakos"
+    },
+    "12424": {
+        "id": 12424,
+        "name": "Strangled"
+    },
+    "12425": {
+        "id": 12425,
+        "name": "Vardorvis"
+    },
+    "12426": {
+        "id": 12426,
+        "name": "Vardorvis"
+    },
+    "12429": {
+        "id": 12429,
+        "name": "Strangled"
+    },
+    "12430": {
+        "id": 12430,
+        "name": "Strangled"
+    },
+    "12431": {
+        "id": 12431,
+        "name": "Strangled"
+    },
+    "12432": {
+        "id": 12432,
+        "name": "Strangled"
+    },
+    "12433": {
+        "id": 12433,
+        "name": "Strangled"
+    },
+    "12434": {
+        "id": 12434,
+        "name": "Strangled"
+    },
+    "12435": {
+        "id": 12435,
+        "name": "Strangled"
+    },
+    "12436": {
+        "id": 12436,
+        "name": "Tail"
+    },
+    "12437": {
+        "id": 12437,
+        "name": "Tail"
+    },
+    "12438": {
+        "id": 12438,
+        "name": "Tail"
     }
 }

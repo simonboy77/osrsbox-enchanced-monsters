@@ -1,7 +1,7 @@
 {
     "id": 21506,
     "name": "Giant seaweed",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": false,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2017-09-07",
     "duplicate": true,
     "examine": "Seaweed of large size.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABRElEQVR4XtWU0Q3CMAxE2w344rsjsAsbsAP/bF4UoiP22W5FEho46aQqSeOXi9tp+n/Na/Fwzevpfn17MJiGST4/bgJsiApUegbQ4LRKD0kgDXaY9LUlIAmYfFmWl7H+i8lt9xBAJEycXDdAnYbfQ8UMlGHze52gYiA2A2EsvQOgkmaVbAEUiRJheNlz+nqrZIG4qT2gKMU83yR7Yi7AsABmGKxvSMhuysUkKM/JebjiyvQGDIQiHiSPY638NXwM420YmRvWcxWEtAeE/winwmsPTQRze2srIKRioL0G5YQ6wED6hNwTXNQb1/NNKo0ZJcJFvXFANia0D4Nm5rlkTrKsb5Le0AeaJu8r85z3aZT+PPVp9YljeHmADilpaUDIpse273xVfiLWh8qm5EMeqriPBlxblvwAhsNYDWnobf0UTE89ARpZsKpb2J6FAAAAAElFTkSuQmCC",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAABoUlEQVR4Xs2U0W3EQAhEzx3kK99XQnpJB+kh/+ncEbLIwsywNrZPykhIOXaBB6zzePxfLeuwyo9nR9WOW9a3788/iwDRn89QFfSyvv98Cf9UXNiSoI/BdHyEszwO9PF8HoXihJ5Ig2zJRwFuCPM0gUxx5KM79EWgGFvBoG/EHNBWJCePUJzcCzAQwnhMc0omTq588QxNwdwGtFcAf/t9PMt32uKO0eeGBWd3zfLH0JB6TzGhOo9f1DzulLh7T4xduymYGIsVGtJJVcEjMC+B8qJYxCyuamYXV2bilahJIGgsjoYVGqrHj6B4Pu7cLh67TwkBlN0MlXe/B4PgOfaSeA0RZnaOkDdMSb8HM3zMOAkF5BO6OCWGUquKxeJKI+QNMK7cOcKoCUUgB8zWEgZnGPtbASnf7D5WLcTBnGgzPFNW3TN/Y306Ca4KJ4ig/hvjTgCZeFVVUjQExMfNdlD4tVRAGBfvenyEUnkwQ6EzyfiOWdWU59CNkfKnq9bB/1t00Zk1gExclN8MiqcZm7gI5G+pJ5xmbmBvyi9UNcn9KW/6BekE7hNuUvdXAAAAAElFTkSuQmCC",
     "wiki_name": "Giant seaweed",
     "wiki_url": "https://oldschool.runescape.wiki/w/Giant_seaweed",
     "equipment": null,

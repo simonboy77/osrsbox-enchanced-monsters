@@ -1,7 +1,7 @@
 {
     "id": 6051,
     "name": "Magic roots",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": true,
@@ -26,7 +26,7 @@
     "release_date": "2005-07-11",
     "duplicate": false,
     "examine": "The roots of the Magic tree.",
-    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACB0lEQVR4XtWWUWvCMBSFzZ/Ys9CHgTAQYQwfhA0ZMlYGMmHIGAiCA9lAkA3//R0nl2PSxG6tMy1eCNo0Jl/PuffWTuc8wkhxtBYK8PZ6J7PZSPL8Rkajq7agjHx+PMn76lEWi3uZz28t0Hjct0D9brdJKCPb7bNsNlNZr3NZLidWpel0+AtQUluNfH/NLBRVom0Pk2sZDi+DQ4210h8JwBSKKsG2EEhV0hyDpYSAkhwnh6JKsI15FALxfq+n1/7Amtjef4WxKtG2GMitoUqESADDMHvbQnucJWpxnF9JQq0DFIHwieT1bdrtXqyCbi5pKBRzCdf4HuYTe1aWXTQDxVyBClAMVecDQTnkG5RqDArlDyAoxtL2gWgvoNy9ZGEKeQIAH4iASHAo1cC7z1iboJIe5PcaU0hy5lwi6/QQgODJYQkP8vsRFPKrD5WHRHdQfqs4Osy+S2Nzbgql4qd3h1I1DPwO6weD7BRtQTcsJqk7JIQKuzTXs4/53f5IMGNtKlaUziNHqleTAmCf8P9VTTB9gcZAeg+woUrloXnoIPSa/azaHjZcXsRKqB3VoDQfOXwwjFp/WQ7DMPSgqlDhA7q9yx66dmiTZBX+tWERIr4Xzh0RWnUYtWRPF/pKoVKueloJLX9nleZTFesSRQikc668G49DQDrfYj6VlWvZfANRdmjZ/FnGD6sJMOi5w1igAAAAAElFTkSuQmCC",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAACTklEQVR4XtWWX0sCQRTFnc/Ri29CIEjgg0igDz5IIUiSYCSYmIIpiRkiEob0j4g+8o0zl7szO+uambvigSGa2XZ+3XPmziYShyFF/rE3MUBzPKTLbpvOruqUL5f2BaVosHyi7nxKrcmI6v1bqjQbVDgva6BMMhknlKLx5wsNXxfUW8yoPR1TY9Cj6k2TitVKCFCktip6+Hqj0fuS+s9z6swm2raLTotKtSrlSkVnU6WtlCFV3DEYV8m2DTkq12seEFdJ6erBUoFAJWXsHEqqBNuwqR1sAZL1TD5nVYYHngna+y8pnSXYhkog2H4g84xUSSAigBEpHW7kCFCwzl8JfgYWB/MVidg6ZEmA8BPhTWXSHtjj94e2NJ09iQ9KsoTfEXQ34Nf3d3rdgEYqzgqqgyrARrQBFwh5Q9aSx6l4oNCPAISKydG2gZAlQKFFmLXIpHw5QbVsIAEEFOyN4e5T2iZUiTeye43y9SJUEDmLyDreBCCwA/mR4Nr9CBXC6ZMK4uShXRgou1VsLeV9fuDl8lJkJPjfm02lahjIFp7PFk530Rb4hQCyNwIc7HOh3C4tz0sfs7v9lmDKO8oGiOeRET/oOjEAbJWLWj5n/gjGF6j/iJs1wG7eCDmHBoIBpUVs9g4tk4tgJfiuc61bLc6jDBsMQ1xw/2qlVsOIlL4yjrwgr5MBsPMmWVu/z8biJimn8LcX+iGCa+7cFuJThxHBl+I2Mv6jRZjTsxfx8TdWuXdc7HKBeM6coti1CojnTc+JXWHHNWw+BoVtGjZ/kPoBc4RUnL6oOXQAAAAASUVORK5CYII=",
     "wiki_name": "Magic roots",
     "wiki_url": "https://oldschool.runescape.wiki/w/Magic_roots",
     "equipment": null,

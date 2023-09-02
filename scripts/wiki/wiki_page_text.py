@@ -53,14 +53,19 @@ class WikiPageText:
             "format": "json",
             "page": self.page_title
         }
+        wiki_text = None
 
         # Perform HTTP GET request
-        try:
-            page_data = requests.get(self.base_url,
-                                     headers=config.custom_agent,
-                                     params=request).json()
-        except requests.exceptions.RequestException as e:
-            raise SystemExit(">>> ERROR: Get request error. Exiting.") from e
+        for attempt in range(10):
+            try:
+                page_data = requests.get(self.base_url,
+                                         headers=config.custom_agent,
+                                         params=request).json()
+                break
+            except requests.exceptions.RequestException as e:
+                raise SystemExit(">>> ERROR: Get request error. Exiting.") from e
+            except:
+                print(">>> ERROR: Probably cloudflare 520")
 
         try:
             # Try to extract the wiki text from the HTTP response

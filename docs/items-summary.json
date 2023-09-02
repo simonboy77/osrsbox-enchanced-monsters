@@ -14889,23 +14889,23 @@
     },
     "6022": {
         "id": 6022,
-        "name": "Leaves"
+        "name": "Oak leaves"
     },
     "6024": {
         "id": 6024,
-        "name": "Leaves"
+        "name": "Willow leaves"
     },
     "6026": {
         "id": 6026,
-        "name": "Leaves"
+        "name": "Yew leaves"
     },
     "6028": {
         "id": 6028,
-        "name": "Leaves"
+        "name": "Maple leaves"
     },
     "6030": {
         "id": 6030,
-        "name": "Leaves"
+        "name": "Magic leaves"
     },
     "6032": {
         "id": 6032,
@@ -32125,7 +32125,7 @@
     },
     "12776": {
         "id": 12776,
-        "name": "Carrallangar teleport"
+        "name": "Carrallanger teleport"
     },
     "12777": {
         "id": 12777,
@@ -47833,19 +47833,19 @@
     },
     "25485": {
         "id": 25485,
-        "name": "Ring of true blood"
+        "name": "Ultor ring"
     },
     "25486": {
         "id": 25486,
-        "name": "Ring of true ice"
+        "name": "Magus ring"
     },
     "25487": {
         "id": 25487,
-        "name": "Ring of true smoke"
+        "name": "Venator ring"
     },
     "25488": {
         "id": 25488,
-        "name": "Ring of true shadow"
+        "name": "Bellator ring"
     },
     "25489": {
         "id": 25489,
@@ -53759,38 +53759,6 @@
         "id": 28098,
         "name": "Bounty crate (tier 9)"
     },
-    "28100": {
-        "id": 28100,
-        "name": "Quinton's poetry scroll"
-    },
-    "28101": {
-        "id": 28101,
-        "name": "Gregory's poetry scroll"
-    },
-    "28102": {
-        "id": 28102,
-        "name": "Bethan's poetry scroll"
-    },
-    "28103": {
-        "id": 28103,
-        "name": "Tabbitha's poetry scroll"
-    },
-    "28104": {
-        "id": 28104,
-        "name": "Tabbitha's poetry scroll (h)"
-    },
-    "28105": {
-        "id": 28105,
-        "name": "Gregory's poetry scroll (h)"
-    },
-    "28106": {
-        "id": 28106,
-        "name": "Bethan's poetry scroll (h)"
-    },
-    "28107": {
-        "id": 28107,
-        "name": "Quinton's poetry scroll (h)"
-    },
     "28108": {
         "id": 28108,
         "name": "Colourful scarf"
@@ -53866,5 +53834,913 @@
     "28128": {
         "id": 28128,
         "name": "Love crossbow"
+    },
+    "28130": {
+        "id": 28130,
+        "name": "Strange icon"
+    },
+    "28132": {
+        "id": 28132,
+        "name": "Dusty lamp"
+    },
+    "28133": {
+        "id": 28133,
+        "name": "Crypt map"
+    },
+    "28134": {
+        "id": 28134,
+        "name": "Anima-infused bark"
+    },
+    "28136": {
+        "id": 28136,
+        "name": "Forestry kit"
+    },
+    "28138": {
+        "id": 28138,
+        "name": "Funky shaped log"
+    },
+    "28140": {
+        "id": 28140,
+        "name": "Log basket"
+    },
+    "28142": {
+        "id": 28142,
+        "name": "Open log basket"
+    },
+    "28143": {
+        "id": 28143,
+        "name": "Forestry basket"
+    },
+    "28145": {
+        "id": 28145,
+        "name": "Open forestry basket"
+    },
+    "28146": {
+        "id": 28146,
+        "name": "Log brace"
+    },
+    "28149": {
+        "id": 28149,
+        "name": "Sturdy harness"
+    },
+    "28152": {
+        "id": 28152,
+        "name": "Nature offerings"
+    },
+    "28154": {
+        "id": 28154,
+        "name": "Ritual mulch"
+    },
+    "28157": {
+        "id": 28157,
+        "name": "Forester's ration"
+    },
+    "28159": {
+        "id": 28159,
+        "name": "Secateurs blade"
+    },
+    "28161": {
+        "id": 28161,
+        "name": "Secateurs attachment"
+    },
+    "28163": {
+        "id": 28163,
+        "name": "Clothes pouch"
+    },
+    "28166": {
+        "id": 28166,
+        "name": "Clothes pouch blueprint"
+    },
+    "28169": {
+        "id": 28169,
+        "name": "Forestry top"
+    },
+    "28171": {
+        "id": 28171,
+        "name": "Forestry legs"
+    },
+    "28173": {
+        "id": 28173,
+        "name": "Forestry hat"
+    },
+    "28175": {
+        "id": 28175,
+        "name": "Forestry boots"
+    },
+    "28177": {
+        "id": 28177,
+        "name": "Axe handle"
+    },
+    "28179": {
+        "id": 28179,
+        "name": "Leprechaun charm"
+    },
+    "28181": {
+        "id": 28181,
+        "name": "Clover insignia"
+    },
+    "28183": {
+        "id": 28183,
+        "name": "Mulch"
+    },
+    "28184": {
+        "id": 28184,
+        "name": "Bee on a stick"
+    },
+    "28190": {
+        "id": 28190,
+        "name": "Powdered pollen"
+    },
+    "28192": {
+        "id": 28192,
+        "name": "Strange pollen"
+    },
+    "28193": {
+        "id": 28193,
+        "name": "Unfired cup"
+    },
+    "28196": {
+        "id": 28196,
+        "name": "Bronze 2h axe"
+    },
+    "28199": {
+        "id": 28199,
+        "name": "Iron 2h axe"
+    },
+    "28202": {
+        "id": 28202,
+        "name": "Steel 2h axe"
+    },
+    "28205": {
+        "id": 28205,
+        "name": "Black 2h axe"
+    },
+    "28208": {
+        "id": 28208,
+        "name": "Mithril 2h axe"
+    },
+    "28211": {
+        "id": 28211,
+        "name": "Adamant 2h axe"
+    },
+    "28214": {
+        "id": 28214,
+        "name": "Rune 2h axe"
+    },
+    "28217": {
+        "id": 28217,
+        "name": "Dragon 2h axe"
+    },
+    "28220": {
+        "id": 28220,
+        "name": "Crystal 2h axe"
+    },
+    "28223": {
+        "id": 28223,
+        "name": "Crystal 2h axe"
+    },
+    "28226": {
+        "id": 28226,
+        "name": "3rd age 2h axe"
+    },
+    "28229": {
+        "id": 28229,
+        "name": "Beaver"
+    },
+    "28230": {
+        "id": 28230,
+        "name": "Beaver"
+    },
+    "28231": {
+        "id": 28231,
+        "name": "Beaver"
+    },
+    "28232": {
+        "id": 28232,
+        "name": "Beaver"
+    },
+    "28233": {
+        "id": 28233,
+        "name": "Beaver"
+    },
+    "28234": {
+        "id": 28234,
+        "name": "Beaver"
+    },
+    "28235": {
+        "id": 28235,
+        "name": "Beaver"
+    },
+    "28236": {
+        "id": 28236,
+        "name": "Beaver"
+    },
+    "28237": {
+        "id": 28237,
+        "name": "Beaver"
+    },
+    "28238": {
+        "id": 28238,
+        "name": "Blood ancient sceptre (broken)"
+    },
+    "28240": {
+        "id": 28240,
+        "name": "Smoke ancient sceptre (broken)"
+    },
+    "28242": {
+        "id": 28242,
+        "name": "Ice ancient sceptre (broken)"
+    },
+    "28244": {
+        "id": 28244,
+        "name": "Shadow ancient sceptre (broken)"
+    },
+    "28246": {
+        "id": 28246,
+        "name": "Wisp"
+    },
+    "28248": {
+        "id": 28248,
+        "name": "Butch"
+    },
+    "28250": {
+        "id": 28250,
+        "name": "Baron"
+    },
+    "28252": {
+        "id": 28252,
+        "name": "Lil'viathan"
+    },
+    "28254": {
+        "id": 28254,
+        "name": "Sanguine torva full helm"
+    },
+    "28256": {
+        "id": 28256,
+        "name": "Sanguine torva platebody"
+    },
+    "28258": {
+        "id": 28258,
+        "name": "Sanguine torva platelegs"
+    },
+    "28260": {
+        "id": 28260,
+        "name": "Blood ancient sceptre"
+    },
+    "28262": {
+        "id": 28262,
+        "name": "Ice ancient sceptre"
+    },
+    "28264": {
+        "id": 28264,
+        "name": "Smoke ancient sceptre"
+    },
+    "28266": {
+        "id": 28266,
+        "name": "Shadow ancient sceptre"
+    },
+    "28268": {
+        "id": 28268,
+        "name": "Blood quartz"
+    },
+    "28270": {
+        "id": 28270,
+        "name": "Ice quartz"
+    },
+    "28272": {
+        "id": 28272,
+        "name": "Shadow quartz"
+    },
+    "28274": {
+        "id": 28274,
+        "name": "Smoke quartz"
+    },
+    "28276": {
+        "id": 28276,
+        "name": "Chromium ingot"
+    },
+    "28279": {
+        "id": 28279,
+        "name": "Bellator vestige"
+    },
+    "28281": {
+        "id": 28281,
+        "name": "Magus vestige"
+    },
+    "28283": {
+        "id": 28283,
+        "name": "Venator vestige"
+    },
+    "28285": {
+        "id": 28285,
+        "name": "Ultor vestige"
+    },
+    "28287": {
+        "id": 28287,
+        "name": "Ultor icon"
+    },
+    "28289": {
+        "id": 28289,
+        "name": "Venator icon"
+    },
+    "28291": {
+        "id": 28291,
+        "name": "Magus icon"
+    },
+    "28293": {
+        "id": 28293,
+        "name": "Bellator icon"
+    },
+    "28295": {
+        "id": 28295,
+        "name": "Berserker icon"
+    },
+    "28298": {
+        "id": 28298,
+        "name": "Archer icon"
+    },
+    "28301": {
+        "id": 28301,
+        "name": "Warrior icon"
+    },
+    "28304": {
+        "id": 28304,
+        "name": "Seers icon"
+    },
+    "28307": {
+        "id": 28307,
+        "name": "Ultor ring"
+    },
+    "28310": {
+        "id": 28310,
+        "name": "Venator ring"
+    },
+    "28313": {
+        "id": 28313,
+        "name": "Magus ring"
+    },
+    "28316": {
+        "id": 28316,
+        "name": "Bellator ring"
+    },
+    "28319": {
+        "id": 28319,
+        "name": "Executioner's axe head"
+    },
+    "28321": {
+        "id": 28321,
+        "name": "Eye of the duke"
+    },
+    "28323": {
+        "id": 28323,
+        "name": "Siren's staff"
+    },
+    "28325": {
+        "id": 28325,
+        "name": "Leviathan's lure"
+    },
+    "28327": {
+        "id": 28327,
+        "name": "Ring of shadows"
+    },
+    "28329": {
+        "id": 28329,
+        "name": "Ring of shadows (uncharged)"
+    },
+    "28330": {
+        "id": 28330,
+        "name": "Strangled tablet"
+    },
+    "28331": {
+        "id": 28331,
+        "name": "Sirenic tablet"
+    },
+    "28332": {
+        "id": 28332,
+        "name": "Scarred tablet"
+    },
+    "28333": {
+        "id": 28333,
+        "name": "Frozen tablet"
+    },
+    "28334": {
+        "id": 28334,
+        "name": "Awakener's orb"
+    },
+    "28336": {
+        "id": 28336,
+        "name": "Ancient blood ornament kit"
+    },
+    "28338": {
+        "id": 28338,
+        "name": "Soulreaper axe"
+    },
+    "28341": {
+        "id": 28341,
+        "name": "Musca mushroom"
+    },
+    "28342": {
+        "id": 28342,
+        "name": "Musca powder"
+    },
+    "28343": {
+        "id": 28343,
+        "name": "Holos mushroom"
+    },
+    "28344": {
+        "id": 28344,
+        "name": "Holos powder"
+    },
+    "28345": {
+        "id": 28345,
+        "name": "Arder mushroom"
+    },
+    "28346": {
+        "id": 28346,
+        "name": "Arder powder"
+    },
+    "28347": {
+        "id": 28347,
+        "name": "Resper mushroom"
+    },
+    "28348": {
+        "id": 28348,
+        "name": "Resper powder"
+    },
+    "28349": {
+        "id": 28349,
+        "name": "Salax salt"
+    },
+    "28350": {
+        "id": 28350,
+        "name": "Musca-holos poison"
+    },
+    "28351": {
+        "id": 28351,
+        "name": "Arder-musca poison"
+    },
+    "28352": {
+        "id": 28352,
+        "name": "Musca-resper poison"
+    },
+    "28353": {
+        "id": 28353,
+        "name": "Holos-arder poison"
+    },
+    "28354": {
+        "id": 28354,
+        "name": "Resper-holos poison"
+    },
+    "28355": {
+        "id": 28355,
+        "name": "Arder-resper poison"
+    },
+    "28356": {
+        "id": 28356,
+        "name": "Blackstone fragment"
+    },
+    "28357": {
+        "id": 28357,
+        "name": "Blackstone fragment"
+    },
+    "28360": {
+        "id": 28360,
+        "name": "Strange icon"
+    },
+    "28361": {
+        "id": 28361,
+        "name": "Icon segment"
+    },
+    "28362": {
+        "id": 28362,
+        "name": "Icon segment"
+    },
+    "28363": {
+        "id": 28363,
+        "name": "Very long rope"
+    },
+    "28364": {
+        "id": 28364,
+        "name": "Basic shadow torch"
+    },
+    "28365": {
+        "id": 28365,
+        "name": "Superior shadow torch"
+    },
+    "28366": {
+        "id": 28366,
+        "name": "Perfected shadow torch"
+    },
+    "28367": {
+        "id": 28367,
+        "name": "Shadow blocker"
+    },
+    "28368": {
+        "id": 28368,
+        "name": "Revitalising idol"
+    },
+    "28369": {
+        "id": 28369,
+        "name": "Anima portal"
+    },
+    "28370": {
+        "id": 28370,
+        "name": "Shadow key"
+    },
+    "28371": {
+        "id": 28371,
+        "name": "Shadow key"
+    },
+    "28372": {
+        "id": 28372,
+        "name": "Shadow key"
+    },
+    "28373": {
+        "id": 28373,
+        "name": "Shadow key"
+    },
+    "28374": {
+        "id": 28374,
+        "name": "Shadow key"
+    },
+    "28375": {
+        "id": 28375,
+        "name": "Anima portal schematic"
+    },
+    "28376": {
+        "id": 28376,
+        "name": "Revitalising idol schematic"
+    },
+    "28377": {
+        "id": 28377,
+        "name": "Shadow blocker schematic"
+    },
+    "28378": {
+        "id": 28378,
+        "name": "Basic shadow torch schematic"
+    },
+    "28379": {
+        "id": 28379,
+        "name": "Superior shadow torch schematic"
+    },
+    "28380": {
+        "id": 28380,
+        "name": "Perfected shadow torch schematic"
+    },
+    "28381": {
+        "id": 28381,
+        "name": "Perfected shadow torch schematic"
+    },
+    "28382": {
+        "id": 28382,
+        "name": "Potion note"
+    },
+    "28383": {
+        "id": 28383,
+        "name": "Strange potion"
+    },
+    "28384": {
+        "id": 28384,
+        "name": "Korbal herb"
+    },
+    "28385": {
+        "id": 28385,
+        "name": "Argian berries"
+    },
+    "28386": {
+        "id": 28386,
+        "name": "Unfinished serum"
+    },
+    "28387": {
+        "id": 28387,
+        "name": "Unfinished serum"
+    },
+    "28388": {
+        "id": 28388,
+        "name": "Strangler serum"
+    },
+    "28389": {
+        "id": 28389,
+        "name": "Temple key"
+    },
+    "28390": {
+        "id": 28390,
+        "name": "Barricade"
+    },
+    "28392": {
+        "id": 28392,
+        "name": "Satchel"
+    },
+    "28393": {
+        "id": 28393,
+        "name": "Detonator"
+    },
+    "28394": {
+        "id": 28394,
+        "name": "Tatty page"
+    },
+    "28395": {
+        "id": 28395,
+        "name": "Tatty page"
+    },
+    "28396": {
+        "id": 28396,
+        "name": "Tatty page"
+    },
+    "28397": {
+        "id": 28397,
+        "name": "Tatty page"
+    },
+    "28398": {
+        "id": 28398,
+        "name": "Tatty page"
+    },
+    "28399": {
+        "id": 28399,
+        "name": "Tatty page"
+    },
+    "28400": {
+        "id": 28400,
+        "name": "Tatty page"
+    },
+    "28401": {
+        "id": 28401,
+        "name": "Mucky note"
+    },
+    "28402": {
+        "id": 28402,
+        "name": "Uncharged cell"
+    },
+    "28403": {
+        "id": 28403,
+        "name": "Charged cell"
+    },
+    "28404": {
+        "id": 28404,
+        "name": "Vardorvis' medallion"
+    },
+    "28405": {
+        "id": 28405,
+        "name": "Perseriya's medallion"
+    },
+    "28406": {
+        "id": 28406,
+        "name": "Sucellus' medallion"
+    },
+    "28407": {
+        "id": 28407,
+        "name": "Whisperer's medallion"
+    },
+    "28408": {
+        "id": 28408,
+        "name": "Hair clip"
+    },
+    "28409": {
+        "id": 28409,
+        "name": "Ancient lamp"
+    },
+    "28410": {
+        "id": 28410,
+        "name": "Dr banikan"
+    },
+    "28412": {
+        "id": 28412,
+        "name": "Prisoner's letter"
+    },
+    "28413": {
+        "id": 28413,
+        "name": "Knife"
+    },
+    "28414": {
+        "id": 28414,
+        "name": "Chisel"
+    },
+    "28415": {
+        "id": 28415,
+        "name": "Lockpick"
+    },
+    "28416": {
+        "id": 28416,
+        "name": "Sapphire key"
+    },
+    "28417": {
+        "id": 28417,
+        "name": "Emerald key"
+    },
+    "28418": {
+        "id": 28418,
+        "name": "Ruby key"
+    },
+    "28419": {
+        "id": 28419,
+        "name": "Diamond key"
+    },
+    "28420": {
+        "id": 28420,
+        "name": "Dragonstone key"
+    },
+    "28421": {
+        "id": 28421,
+        "name": "Onyx key"
+    },
+    "28422": {
+        "id": 28422,
+        "name": "Rations"
+    },
+    "28423": {
+        "id": 28423,
+        "name": "Requisition note"
+    },
+    "28424": {
+        "id": 28424,
+        "name": "Grid note"
+    },
+    "28425": {
+        "id": 28425,
+        "name": "Code converter"
+    },
+    "28426": {
+        "id": 28426,
+        "name": "Magic lantern"
+    },
+    "28427": {
+        "id": 28427,
+        "name": "Strange slider"
+    },
+    "28428": {
+        "id": 28428,
+        "name": "Library note"
+    },
+    "28429": {
+        "id": 28429,
+        "name": "Warning letter"
+    },
+    "28430": {
+        "id": 28430,
+        "name": "Odd key"
+    },
+    "28431": {
+        "id": 28431,
+        "name": "Orders note"
+    },
+    "28432": {
+        "id": 28432,
+        "name": "Refugees note"
+    },
+    "28433": {
+        "id": 28433,
+        "name": "Request note"
+    },
+    "28434": {
+        "id": 28434,
+        "name": "Prayer note"
+    },
+    "28435": {
+        "id": 28435,
+        "name": "Thank you note"
+    },
+    "28436": {
+        "id": 28436,
+        "name": "Protest note"
+    },
+    "28437": {
+        "id": 28437,
+        "name": "Evacuation note"
+    },
+    "28438": {
+        "id": 28438,
+        "name": "Old tablet"
+    },
+    "28439": {
+        "id": 28439,
+        "name": "Damp tablet"
+    },
+    "28440": {
+        "id": 28440,
+        "name": "Damp tablet"
+    },
+    "28441": {
+        "id": 28441,
+        "name": "Slimy key"
+    },
+    "28442": {
+        "id": 28442,
+        "name": "Gunpowder"
+    },
+    "28443": {
+        "id": 28443,
+        "name": "Scarred scraps"
+    },
+    "28444": {
+        "id": 28444,
+        "name": "Withered note"
+    },
+    "28445": {
+        "id": 28445,
+        "name": "Earth nerve"
+    },
+    "28446": {
+        "id": 28446,
+        "name": "Water nerve"
+    },
+    "28447": {
+        "id": 28447,
+        "name": "Fire nerve"
+    },
+    "28448": {
+        "id": 28448,
+        "name": "Air nerve"
+    },
+    "28449": {
+        "id": 28449,
+        "name": "Mind nerve"
+    },
+    "28450": {
+        "id": 28450,
+        "name": "Soul nerve"
+    },
+    "28451": {
+        "id": 28451,
+        "name": "Nature nerve"
+    },
+    "28452": {
+        "id": 28452,
+        "name": "Smoke nerve"
+    },
+    "28453": {
+        "id": 28453,
+        "name": "Blood nerve"
+    },
+    "28454": {
+        "id": 28454,
+        "name": "Law nerve"
+    },
+    "28455": {
+        "id": 28455,
+        "name": "Cosmic nerve"
+    },
+    "28456": {
+        "id": 28456,
+        "name": "Astral nerve"
+    },
+    "28457": {
+        "id": 28457,
+        "name": "Wrath nerve"
+    },
+    "28458": {
+        "id": 28458,
+        "name": "Dust nerve"
+    },
+    "28459": {
+        "id": 28459,
+        "name": "Steam nerve"
+    },
+    "28460": {
+        "id": 28460,
+        "name": "Lava nerve"
+    },
+    "28461": {
+        "id": 28461,
+        "name": "Abyssal observations"
+    },
+    "28462": {
+        "id": 28462,
+        "name": "Crimson fibre"
+    },
+    "28463": {
+        "id": 28463,
+        "name": "Radiant fibre"
+    },
+    "28464": {
+        "id": 28464,
+        "name": "Illuminating lure"
+    },
+    "28465": {
+        "id": 28465,
+        "name": "Slimy tablet"
+    },
+    "28466": {
+        "id": 28466,
+        "name": "Slimy tablet"
+    },
+    "28467": {
+        "id": 28467,
+        "name": "Slimy tablet"
+    },
+    "28468": {
+        "id": 28468,
+        "name": "Gooey note"
+    },
+    "28469": {
+        "id": 28469,
+        "name": "Gooey note"
+    },
+    "28470": {
+        "id": 28470,
+        "name": "Gooey note"
+    },
+    "28471": {
+        "id": 28471,
+        "name": "Stink bomb"
     }
 }

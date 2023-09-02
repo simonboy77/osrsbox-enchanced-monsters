@@ -1,7 +1,7 @@
 {
     "id": 25416,
     "name": "Bloodbark legs",
-    "last_updated": "2023-02-11",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": true,
@@ -33,7 +33,7 @@
         "attack_stab": 0,
         "attack_slash": 0,
         "attack_crush": 0,
-        "attack_magic": 13,
+        "attack_magic": 16,
         "attack_ranged": 0,
         "defence_stab": 33,
         "defence_slash": 31,

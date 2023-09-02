@@ -1,7 +1,7 @@
 {
     "id": 27297,
     "name": "Neutralising potion",
-    "last_updated": "2023-06-10",
+    "last_updated": "2023-08-03",
     "incomplete": false,
     "members": true,
     "tradeable": false,
@@ -17,7 +17,7 @@
     "equipable": false,
     "equipable_by_player": false,
     "equipable_weapon": false,
-    "cost": 50,
+    "cost": 1,
     "lowalch": null,
     "highalch": null,
     "weight": 0.0,

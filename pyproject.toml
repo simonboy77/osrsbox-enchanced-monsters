@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "osrsreboxed"
-version = "2.3.13"
+version = "2.3.15"
 description = "A complete and up-to-date database of Old School Runescape (OSRS) items, monsters and prayers accessible using a Python API. Up to date version of osrsbox by PH01L"
 readme="README.md"
 homepage = "https://github.com/0xNeffarion/osrsreboxed-db"

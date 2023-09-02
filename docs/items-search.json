@@ -34357,61 +34357,61 @@
     },
     "6022": {
         "id": 6022,
-        "name": "Leaves",
+        "name": "Oak leaves",
         "type": "normal",
         "duplicate": false
     },
     "6023": {
         "id": 6023,
-        "name": "Leaves",
+        "name": "Oak leaves",
         "type": "noted",
         "duplicate": true
     },
     "6024": {
         "id": 6024,
-        "name": "Leaves",
+        "name": "Willow leaves",
         "type": "normal",
         "duplicate": false
     },
     "6025": {
         "id": 6025,
-        "name": "Leaves",
+        "name": "Willow leaves",
         "type": "noted",
         "duplicate": true
     },
     "6026": {
         "id": 6026,
-        "name": "Leaves",
+        "name": "Yew leaves",
         "type": "normal",
         "duplicate": false
     },
     "6027": {
         "id": 6027,
-        "name": "Leaves",
+        "name": "Yew leaves",
         "type": "noted",
         "duplicate": true
     },
     "6028": {
         "id": 6028,
-        "name": "Leaves",
+        "name": "Maple leaves",
         "type": "normal",
         "duplicate": false
     },
     "6029": {
         "id": 6029,
-        "name": "Leaves",
+        "name": "Maple leaves",
         "type": "noted",
         "duplicate": true
     },
     "6030": {
         "id": 6030,
-        "name": "Leaves",
+        "name": "Magic leaves",
         "type": "normal",
         "duplicate": false
     },
     "6031": {
         "id": 6031,
-        "name": "Leaves",
+        "name": "Magic leaves",
         "type": "noted",
         "duplicate": true
     },
@@ -56535,67 +56535,67 @@
         "id": 9954,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9955": {
         "id": 9955,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9956": {
         "id": 9956,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9957": {
         "id": 9957,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9958": {
         "id": 9958,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9959": {
         "id": 9959,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9960": {
         "id": 9960,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9961": {
         "id": 9961,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9962": {
         "id": 9962,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9963": {
         "id": 9963,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9964": {
         "id": 9964,
         "name": "Kebbit",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "9965": {
         "id": 9965,
@@ -70939,7 +70939,7 @@
     },
     "12776": {
         "id": 12776,
-        "name": "Carrallangar teleport",
+        "name": "Carrallanger teleport",
         "type": "normal",
         "duplicate": false
     },
@@ -76561,31 +76561,31 @@
     },
     "13754": {
         "id": 13754,
-        "name": "Leaves",
+        "name": "Oak leaves",
         "type": "placeholder",
         "duplicate": true
     },
     "13755": {
         "id": 13755,
-        "name": "Leaves",
+        "name": "Willow leaves",
         "type": "placeholder",
         "duplicate": true
     },
     "13756": {
         "id": 13756,
-        "name": "Leaves",
+        "name": "Yew leaves",
         "type": "placeholder",
         "duplicate": true
     },
     "13757": {
         "id": 13757,
-        "name": "Leaves",
+        "name": "Maple leaves",
         "type": "placeholder",
         "duplicate": true
     },
     "13758": {
         "id": 13758,
-        "name": "Leaves",
+        "name": "Magic leaves",
         "type": "placeholder",
         "duplicate": true
     },
@@ -84517,7 +84517,7 @@
     },
     "15081": {
         "id": 15081,
-        "name": "Carrallangar teleport",
+        "name": "Carrallanger teleport",
         "type": "placeholder",
         "duplicate": true
     },
@@ -144613,25 +144613,25 @@
     },
     "25485": {
         "id": 25485,
-        "name": "Ring of true blood",
+        "name": "Ultor ring",
         "type": "normal",
         "duplicate": false
     },
     "25486": {
         "id": 25486,
-        "name": "Ring of true ice",
+        "name": "Magus ring",
         "type": "normal",
         "duplicate": false
     },
     "25487": {
         "id": 25487,
-        "name": "Ring of true smoke",
+        "name": "Venator ring",
         "type": "normal",
         "duplicate": false
     },
     "25488": {
         "id": 25488,
-        "name": "Ring of true shadow",
+        "name": "Bellator ring",
         "type": "normal",
         "duplicate": false
     },
@@ -152955,7 +152955,7 @@
         "id": 26924,
         "name": "Magical cleaning potion",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "26925": {
         "id": 26925,
@@ -152967,7 +152967,7 @@
         "id": 26926,
         "name": "Easter egg",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "26927": {
         "id": 26927,
@@ -156693,7 +156693,7 @@
         "id": 27559,
         "name": "Snowball",
         "type": "normal",
-        "duplicate": true
+        "duplicate": false
     },
     "27560": {
         "id": 27560,
@@ -159755,54 +159755,6 @@
         "type": "placeholder",
         "duplicate": true
     },
-    "28100": {
-        "id": 28100,
-        "name": "Quinton's poetry scroll",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28101": {
-        "id": 28101,
-        "name": "Gregory's poetry scroll",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28102": {
-        "id": 28102,
-        "name": "Bethan's poetry scroll",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28103": {
-        "id": 28103,
-        "name": "Tabbitha's poetry scroll",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28104": {
-        "id": 28104,
-        "name": "Tabbitha's poetry scroll (h)",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28105": {
-        "id": 28105,
-        "name": "Gregory's poetry scroll (h)",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28106": {
-        "id": 28106,
-        "name": "Bethan's poetry scroll (h)",
-        "type": "normal",
-        "duplicate": false
-    },
-    "28107": {
-        "id": 28107,
-        "name": "Quinton's poetry scroll (h)",
-        "type": "normal",
-        "duplicate": false
-    },
     "28108": {
         "id": 28108,
         "name": "Colourful scarf",
@@ -159932,6 +159884,2046 @@
     "28129": {
         "id": 28129,
         "name": "Love crossbow",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28130": {
+        "id": 28130,
+        "name": "Strange icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28132": {
+        "id": 28132,
+        "name": "Dusty lamp",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28133": {
+        "id": 28133,
+        "name": "Crypt map",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28134": {
+        "id": 28134,
+        "name": "Anima-infused bark",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28135": {
+        "id": 28135,
+        "name": "Anima-infused bark",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28136": {
+        "id": 28136,
+        "name": "Forestry kit",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28137": {
+        "id": 28137,
+        "name": "Forestry kit",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28138": {
+        "id": 28138,
+        "name": "Funky shaped log",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28139": {
+        "id": 28139,
+        "name": "Funky shaped log",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28140": {
+        "id": 28140,
+        "name": "Log basket",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28141": {
+        "id": 28141,
+        "name": "Log basket",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28142": {
+        "id": 28142,
+        "name": "Open log basket",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28143": {
+        "id": 28143,
+        "name": "Forestry basket",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28144": {
+        "id": 28144,
+        "name": "Forestry basket",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28145": {
+        "id": 28145,
+        "name": "Open forestry basket",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28146": {
+        "id": 28146,
+        "name": "Log brace",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28147": {
+        "id": 28147,
+        "name": "Log brace",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28148": {
+        "id": 28148,
+        "name": "Log brace",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28149": {
+        "id": 28149,
+        "name": "Sturdy harness",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28150": {
+        "id": 28150,
+        "name": "Sturdy harness",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28151": {
+        "id": 28151,
+        "name": "Sturdy harness",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28152": {
+        "id": 28152,
+        "name": "Nature offerings",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28153": {
+        "id": 28153,
+        "name": "Nature offerings",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28154": {
+        "id": 28154,
+        "name": "Ritual mulch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28155": {
+        "id": 28155,
+        "name": "Ritual mulch",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28156": {
+        "id": 28156,
+        "name": "Ritual mulch",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28157": {
+        "id": 28157,
+        "name": "Forester's ration",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28158": {
+        "id": 28158,
+        "name": "Forester's ration",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28159": {
+        "id": 28159,
+        "name": "Secateurs blade",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28160": {
+        "id": 28160,
+        "name": "Secateurs blade",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28161": {
+        "id": 28161,
+        "name": "Secateurs attachment",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28162": {
+        "id": 28162,
+        "name": "Secateurs attachment",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28163": {
+        "id": 28163,
+        "name": "Clothes pouch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28164": {
+        "id": 28164,
+        "name": "Clothes pouch",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28165": {
+        "id": 28165,
+        "name": "Clothes pouch",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28166": {
+        "id": 28166,
+        "name": "Clothes pouch blueprint",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28167": {
+        "id": 28167,
+        "name": "Clothes pouch blueprint",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28168": {
+        "id": 28168,
+        "name": "Clothes pouch blueprint",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28169": {
+        "id": 28169,
+        "name": "Forestry top",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28170": {
+        "id": 28170,
+        "name": "Forestry top",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28171": {
+        "id": 28171,
+        "name": "Forestry legs",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28172": {
+        "id": 28172,
+        "name": "Forestry legs",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28173": {
+        "id": 28173,
+        "name": "Forestry hat",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28174": {
+        "id": 28174,
+        "name": "Forestry hat",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28175": {
+        "id": 28175,
+        "name": "Forestry boots",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28176": {
+        "id": 28176,
+        "name": "Forestry boots",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28177": {
+        "id": 28177,
+        "name": "Axe handle",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28178": {
+        "id": 28178,
+        "name": "Axe handle",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28179": {
+        "id": 28179,
+        "name": "Leprechaun charm",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28180": {
+        "id": 28180,
+        "name": "Leprechaun charm",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28181": {
+        "id": 28181,
+        "name": "Clover insignia",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28182": {
+        "id": 28182,
+        "name": "Clover insignia",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28183": {
+        "id": 28183,
+        "name": "Mulch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28184": {
+        "id": 28184,
+        "name": "Bee on a stick",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28185": {
+        "id": 28185,
+        "name": "Bee on a stick",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28186": {
+        "id": 28186,
+        "name": "Bee on a stick",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28187": {
+        "id": 28187,
+        "name": "Bee on a stick",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28188": {
+        "id": 28188,
+        "name": "Bee on a stick",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28189": {
+        "id": 28189,
+        "name": "Bee on a stick",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28190": {
+        "id": 28190,
+        "name": "Powdered pollen",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28191": {
+        "id": 28191,
+        "name": "Powdered pollen",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28192": {
+        "id": 28192,
+        "name": "Strange pollen",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28193": {
+        "id": 28193,
+        "name": "Unfired cup",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28194": {
+        "id": 28194,
+        "name": "Unfired cup",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28195": {
+        "id": 28195,
+        "name": "Unfired cup",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28196": {
+        "id": 28196,
+        "name": "Bronze 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28197": {
+        "id": 28197,
+        "name": "Bronze 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28198": {
+        "id": 28198,
+        "name": "Bronze 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28199": {
+        "id": 28199,
+        "name": "Iron 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28200": {
+        "id": 28200,
+        "name": "Iron 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28201": {
+        "id": 28201,
+        "name": "Iron 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28202": {
+        "id": 28202,
+        "name": "Steel 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28203": {
+        "id": 28203,
+        "name": "Steel 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28204": {
+        "id": 28204,
+        "name": "Steel 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28205": {
+        "id": 28205,
+        "name": "Black 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28206": {
+        "id": 28206,
+        "name": "Black 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28207": {
+        "id": 28207,
+        "name": "Black 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28208": {
+        "id": 28208,
+        "name": "Mithril 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28209": {
+        "id": 28209,
+        "name": "Mithril 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28210": {
+        "id": 28210,
+        "name": "Mithril 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28211": {
+        "id": 28211,
+        "name": "Adamant 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28212": {
+        "id": 28212,
+        "name": "Adamant 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28213": {
+        "id": 28213,
+        "name": "Adamant 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28214": {
+        "id": 28214,
+        "name": "Rune 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28215": {
+        "id": 28215,
+        "name": "Rune 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28216": {
+        "id": 28216,
+        "name": "Rune 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28217": {
+        "id": 28217,
+        "name": "Dragon 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28218": {
+        "id": 28218,
+        "name": "Dragon 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28219": {
+        "id": 28219,
+        "name": "Dragon 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28220": {
+        "id": 28220,
+        "name": "Crystal 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28221": {
+        "id": 28221,
+        "name": "Crystal 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28222": {
+        "id": 28222,
+        "name": "Crystal 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28223": {
+        "id": 28223,
+        "name": "Crystal 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28224": {
+        "id": 28224,
+        "name": "Crystal 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28225": {
+        "id": 28225,
+        "name": "Crystal 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28226": {
+        "id": 28226,
+        "name": "3rd age 2h axe",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28227": {
+        "id": 28227,
+        "name": "3rd age 2h axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28228": {
+        "id": 28228,
+        "name": "3rd age 2h axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28229": {
+        "id": 28229,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28230": {
+        "id": 28230,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28231": {
+        "id": 28231,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28232": {
+        "id": 28232,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28233": {
+        "id": 28233,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28234": {
+        "id": 28234,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28235": {
+        "id": 28235,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28236": {
+        "id": 28236,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28237": {
+        "id": 28237,
+        "name": "Beaver",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28238": {
+        "id": 28238,
+        "name": "Blood ancient sceptre (broken)",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28239": {
+        "id": 28239,
+        "name": "Blood ancient sceptre (broken)",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28240": {
+        "id": 28240,
+        "name": "Smoke ancient sceptre (broken)",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28241": {
+        "id": 28241,
+        "name": "Smoke ancient sceptre (broken)",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28242": {
+        "id": 28242,
+        "name": "Ice ancient sceptre (broken)",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28243": {
+        "id": 28243,
+        "name": "Ice ancient sceptre (broken)",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28244": {
+        "id": 28244,
+        "name": "Shadow ancient sceptre (broken)",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28245": {
+        "id": 28245,
+        "name": "Shadow ancient sceptre (broken)",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28246": {
+        "id": 28246,
+        "name": "Wisp",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28247": {
+        "id": 28247,
+        "name": "Wisp",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28248": {
+        "id": 28248,
+        "name": "Butch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28249": {
+        "id": 28249,
+        "name": "Butch",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28250": {
+        "id": 28250,
+        "name": "Baron",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28251": {
+        "id": 28251,
+        "name": "Baron",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28252": {
+        "id": 28252,
+        "name": "Lil'viathan",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28253": {
+        "id": 28253,
+        "name": "Lil'viathan",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28254": {
+        "id": 28254,
+        "name": "Sanguine torva full helm",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28255": {
+        "id": 28255,
+        "name": "Sanguine torva full helm",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28256": {
+        "id": 28256,
+        "name": "Sanguine torva platebody",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28257": {
+        "id": 28257,
+        "name": "Sanguine torva platebody",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28258": {
+        "id": 28258,
+        "name": "Sanguine torva platelegs",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28259": {
+        "id": 28259,
+        "name": "Sanguine torva platelegs",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28260": {
+        "id": 28260,
+        "name": "Blood ancient sceptre",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28261": {
+        "id": 28261,
+        "name": "Blood ancient sceptre",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28262": {
+        "id": 28262,
+        "name": "Ice ancient sceptre",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28263": {
+        "id": 28263,
+        "name": "Ice ancient sceptre",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28264": {
+        "id": 28264,
+        "name": "Smoke ancient sceptre",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28265": {
+        "id": 28265,
+        "name": "Smoke ancient sceptre",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28266": {
+        "id": 28266,
+        "name": "Shadow ancient sceptre",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28267": {
+        "id": 28267,
+        "name": "Shadow ancient sceptre",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28268": {
+        "id": 28268,
+        "name": "Blood quartz",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28269": {
+        "id": 28269,
+        "name": "Blood quartz",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28270": {
+        "id": 28270,
+        "name": "Ice quartz",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28271": {
+        "id": 28271,
+        "name": "Ice quartz",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28272": {
+        "id": 28272,
+        "name": "Shadow quartz",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28273": {
+        "id": 28273,
+        "name": "Shadow quartz",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28274": {
+        "id": 28274,
+        "name": "Smoke quartz",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28275": {
+        "id": 28275,
+        "name": "Smoke quartz",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28276": {
+        "id": 28276,
+        "name": "Chromium ingot",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28277": {
+        "id": 28277,
+        "name": "Chromium ingot",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28278": {
+        "id": 28278,
+        "name": "Chromium ingot",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28279": {
+        "id": 28279,
+        "name": "Bellator vestige",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28280": {
+        "id": 28280,
+        "name": "Bellator vestige",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28281": {
+        "id": 28281,
+        "name": "Magus vestige",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28282": {
+        "id": 28282,
+        "name": "Magus vestige",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28283": {
+        "id": 28283,
+        "name": "Venator vestige",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28284": {
+        "id": 28284,
+        "name": "Venator vestige",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28285": {
+        "id": 28285,
+        "name": "Ultor vestige",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28286": {
+        "id": 28286,
+        "name": "Ultor vestige",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28287": {
+        "id": 28287,
+        "name": "Ultor icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28288": {
+        "id": 28288,
+        "name": "Ultor icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28289": {
+        "id": 28289,
+        "name": "Venator icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28290": {
+        "id": 28290,
+        "name": "Venator icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28291": {
+        "id": 28291,
+        "name": "Magus icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28292": {
+        "id": 28292,
+        "name": "Magus icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28293": {
+        "id": 28293,
+        "name": "Bellator icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28294": {
+        "id": 28294,
+        "name": "Bellator icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28295": {
+        "id": 28295,
+        "name": "Berserker icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28296": {
+        "id": 28296,
+        "name": "Berserker icon",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28297": {
+        "id": 28297,
+        "name": "Berserker icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28298": {
+        "id": 28298,
+        "name": "Archer icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28299": {
+        "id": 28299,
+        "name": "Archer icon",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28300": {
+        "id": 28300,
+        "name": "Archer icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28301": {
+        "id": 28301,
+        "name": "Warrior icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28302": {
+        "id": 28302,
+        "name": "Warrior icon",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28303": {
+        "id": 28303,
+        "name": "Warrior icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28304": {
+        "id": 28304,
+        "name": "Seers icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28305": {
+        "id": 28305,
+        "name": "Seers icon",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28306": {
+        "id": 28306,
+        "name": "Seers icon",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28307": {
+        "id": 28307,
+        "name": "Ultor ring",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28308": {
+        "id": 28308,
+        "name": "Ultor ring",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28309": {
+        "id": 28309,
+        "name": "Ultor ring",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28310": {
+        "id": 28310,
+        "name": "Venator ring",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28311": {
+        "id": 28311,
+        "name": "Venator ring",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28312": {
+        "id": 28312,
+        "name": "Venator ring",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28313": {
+        "id": 28313,
+        "name": "Magus ring",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28314": {
+        "id": 28314,
+        "name": "Magus ring",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28315": {
+        "id": 28315,
+        "name": "Magus ring",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28316": {
+        "id": 28316,
+        "name": "Bellator ring",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28317": {
+        "id": 28317,
+        "name": "Bellator ring",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28318": {
+        "id": 28318,
+        "name": "Bellator ring",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28319": {
+        "id": 28319,
+        "name": "Executioner's axe head",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28320": {
+        "id": 28320,
+        "name": "Executioner's axe head",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28321": {
+        "id": 28321,
+        "name": "Eye of the duke",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28322": {
+        "id": 28322,
+        "name": "Eye of the duke",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28323": {
+        "id": 28323,
+        "name": "Siren's staff",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28324": {
+        "id": 28324,
+        "name": "Siren's staff",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28325": {
+        "id": 28325,
+        "name": "Leviathan's lure",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28326": {
+        "id": 28326,
+        "name": "Leviathan's lure",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28327": {
+        "id": 28327,
+        "name": "Ring of shadows",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28328": {
+        "id": 28328,
+        "name": "Ring of shadows",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28329": {
+        "id": 28329,
+        "name": "Ring of shadows (uncharged)",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28330": {
+        "id": 28330,
+        "name": "Strangled tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28331": {
+        "id": 28331,
+        "name": "Sirenic tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28332": {
+        "id": 28332,
+        "name": "Scarred tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28333": {
+        "id": 28333,
+        "name": "Frozen tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28334": {
+        "id": 28334,
+        "name": "Awakener's orb",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28335": {
+        "id": 28335,
+        "name": "Awakener's orb",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28336": {
+        "id": 28336,
+        "name": "Ancient blood ornament kit",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28337": {
+        "id": 28337,
+        "name": "Ancient blood ornament kit",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28338": {
+        "id": 28338,
+        "name": "Soulreaper axe",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28339": {
+        "id": 28339,
+        "name": "Soulreaper axe",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28340": {
+        "id": 28340,
+        "name": "Soulreaper axe",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28341": {
+        "id": 28341,
+        "name": "Musca mushroom",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28342": {
+        "id": 28342,
+        "name": "Musca powder",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28343": {
+        "id": 28343,
+        "name": "Holos mushroom",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28344": {
+        "id": 28344,
+        "name": "Holos powder",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28345": {
+        "id": 28345,
+        "name": "Arder mushroom",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28346": {
+        "id": 28346,
+        "name": "Arder powder",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28347": {
+        "id": 28347,
+        "name": "Resper mushroom",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28348": {
+        "id": 28348,
+        "name": "Resper powder",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28349": {
+        "id": 28349,
+        "name": "Salax salt",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28350": {
+        "id": 28350,
+        "name": "Musca-holos poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28351": {
+        "id": 28351,
+        "name": "Arder-musca poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28352": {
+        "id": 28352,
+        "name": "Musca-resper poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28353": {
+        "id": 28353,
+        "name": "Holos-arder poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28354": {
+        "id": 28354,
+        "name": "Resper-holos poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28355": {
+        "id": 28355,
+        "name": "Arder-resper poison",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28356": {
+        "id": 28356,
+        "name": "Blackstone fragment",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28357": {
+        "id": 28357,
+        "name": "Blackstone fragment",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28358": {
+        "id": 28358,
+        "name": "Blackstone fragment",
+        "type": "placeholder",
+        "duplicate": true
+    },
+    "28360": {
+        "id": 28360,
+        "name": "Strange icon",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28361": {
+        "id": 28361,
+        "name": "Icon segment",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28362": {
+        "id": 28362,
+        "name": "Icon segment",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28363": {
+        "id": 28363,
+        "name": "Very long rope",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28364": {
+        "id": 28364,
+        "name": "Basic shadow torch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28365": {
+        "id": 28365,
+        "name": "Superior shadow torch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28366": {
+        "id": 28366,
+        "name": "Perfected shadow torch",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28367": {
+        "id": 28367,
+        "name": "Shadow blocker",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28368": {
+        "id": 28368,
+        "name": "Revitalising idol",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28369": {
+        "id": 28369,
+        "name": "Anima portal",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28370": {
+        "id": 28370,
+        "name": "Shadow key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28371": {
+        "id": 28371,
+        "name": "Shadow key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28372": {
+        "id": 28372,
+        "name": "Shadow key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28373": {
+        "id": 28373,
+        "name": "Shadow key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28374": {
+        "id": 28374,
+        "name": "Shadow key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28375": {
+        "id": 28375,
+        "name": "Anima portal schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28376": {
+        "id": 28376,
+        "name": "Revitalising idol schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28377": {
+        "id": 28377,
+        "name": "Shadow blocker schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28378": {
+        "id": 28378,
+        "name": "Basic shadow torch schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28379": {
+        "id": 28379,
+        "name": "Superior shadow torch schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28380": {
+        "id": 28380,
+        "name": "Perfected shadow torch schematic",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28381": {
+        "id": 28381,
+        "name": "Perfected shadow torch schematic",
+        "type": "normal",
+        "duplicate": true
+    },
+    "28382": {
+        "id": 28382,
+        "name": "Potion note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28383": {
+        "id": 28383,
+        "name": "Strange potion",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28384": {
+        "id": 28384,
+        "name": "Korbal herb",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28385": {
+        "id": 28385,
+        "name": "Argian berries",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28386": {
+        "id": 28386,
+        "name": "Unfinished serum",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28387": {
+        "id": 28387,
+        "name": "Unfinished serum",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28388": {
+        "id": 28388,
+        "name": "Strangler serum",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28389": {
+        "id": 28389,
+        "name": "Temple key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28390": {
+        "id": 28390,
+        "name": "Barricade",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28391": {
+        "id": 28391,
+        "name": "Barricade",
+        "type": "noted",
+        "duplicate": true
+    },
+    "28392": {
+        "id": 28392,
+        "name": "Satchel",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28393": {
+        "id": 28393,
+        "name": "Detonator",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28394": {
+        "id": 28394,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28395": {
+        "id": 28395,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28396": {
+        "id": 28396,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28397": {
+        "id": 28397,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28398": {
+        "id": 28398,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28399": {
+        "id": 28399,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28400": {
+        "id": 28400,
+        "name": "Tatty page",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28401": {
+        "id": 28401,
+        "name": "Mucky note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28402": {
+        "id": 28402,
+        "name": "Uncharged cell",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28403": {
+        "id": 28403,
+        "name": "Charged cell",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28404": {
+        "id": 28404,
+        "name": "Vardorvis' medallion",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28405": {
+        "id": 28405,
+        "name": "Perseriya's medallion",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28406": {
+        "id": 28406,
+        "name": "Sucellus' medallion",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28407": {
+        "id": 28407,
+        "name": "Whisperer's medallion",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28408": {
+        "id": 28408,
+        "name": "Hair clip",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28409": {
+        "id": 28409,
+        "name": "Ancient lamp",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28410": {
+        "id": 28410,
+        "name": "Dr banikan",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28412": {
+        "id": 28412,
+        "name": "Prisoner's letter",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28413": {
+        "id": 28413,
+        "name": "Knife",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28414": {
+        "id": 28414,
+        "name": "Chisel",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28415": {
+        "id": 28415,
+        "name": "Lockpick",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28416": {
+        "id": 28416,
+        "name": "Sapphire key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28417": {
+        "id": 28417,
+        "name": "Emerald key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28418": {
+        "id": 28418,
+        "name": "Ruby key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28419": {
+        "id": 28419,
+        "name": "Diamond key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28420": {
+        "id": 28420,
+        "name": "Dragonstone key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28421": {
+        "id": 28421,
+        "name": "Onyx key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28422": {
+        "id": 28422,
+        "name": "Rations",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28423": {
+        "id": 28423,
+        "name": "Requisition note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28424": {
+        "id": 28424,
+        "name": "Grid note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28425": {
+        "id": 28425,
+        "name": "Code converter",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28426": {
+        "id": 28426,
+        "name": "Magic lantern",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28427": {
+        "id": 28427,
+        "name": "Strange slider",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28428": {
+        "id": 28428,
+        "name": "Library note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28429": {
+        "id": 28429,
+        "name": "Warning letter",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28430": {
+        "id": 28430,
+        "name": "Odd key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28431": {
+        "id": 28431,
+        "name": "Orders note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28432": {
+        "id": 28432,
+        "name": "Refugees note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28433": {
+        "id": 28433,
+        "name": "Request note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28434": {
+        "id": 28434,
+        "name": "Prayer note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28435": {
+        "id": 28435,
+        "name": "Thank you note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28436": {
+        "id": 28436,
+        "name": "Protest note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28437": {
+        "id": 28437,
+        "name": "Evacuation note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28438": {
+        "id": 28438,
+        "name": "Old tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28439": {
+        "id": 28439,
+        "name": "Damp tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28440": {
+        "id": 28440,
+        "name": "Damp tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28441": {
+        "id": 28441,
+        "name": "Slimy key",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28442": {
+        "id": 28442,
+        "name": "Gunpowder",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28443": {
+        "id": 28443,
+        "name": "Scarred scraps",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28444": {
+        "id": 28444,
+        "name": "Withered note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28445": {
+        "id": 28445,
+        "name": "Earth nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28446": {
+        "id": 28446,
+        "name": "Water nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28447": {
+        "id": 28447,
+        "name": "Fire nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28448": {
+        "id": 28448,
+        "name": "Air nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28449": {
+        "id": 28449,
+        "name": "Mind nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28450": {
+        "id": 28450,
+        "name": "Soul nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28451": {
+        "id": 28451,
+        "name": "Nature nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28452": {
+        "id": 28452,
+        "name": "Smoke nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28453": {
+        "id": 28453,
+        "name": "Blood nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28454": {
+        "id": 28454,
+        "name": "Law nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28455": {
+        "id": 28455,
+        "name": "Cosmic nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28456": {
+        "id": 28456,
+        "name": "Astral nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28457": {
+        "id": 28457,
+        "name": "Wrath nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28458": {
+        "id": 28458,
+        "name": "Dust nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28459": {
+        "id": 28459,
+        "name": "Steam nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28460": {
+        "id": 28460,
+        "name": "Lava nerve",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28461": {
+        "id": 28461,
+        "name": "Abyssal observations",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28462": {
+        "id": 28462,
+        "name": "Crimson fibre",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28463": {
+        "id": 28463,
+        "name": "Radiant fibre",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28464": {
+        "id": 28464,
+        "name": "Illuminating lure",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28465": {
+        "id": 28465,
+        "name": "Slimy tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28466": {
+        "id": 28466,
+        "name": "Slimy tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28467": {
+        "id": 28467,
+        "name": "Slimy tablet",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28468": {
+        "id": 28468,
+        "name": "Gooey note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28469": {
+        "id": 28469,
+        "name": "Gooey note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28470": {
+        "id": 28470,
+        "name": "Gooey note",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28471": {
+        "id": 28471,
+        "name": "Stink bomb",
+        "type": "normal",
+        "duplicate": false
+    },
+    "28472": {
+        "id": 28472,
+        "name": "Stink bomb",
         "type": "placeholder",
         "duplicate": true
     }
